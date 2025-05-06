@@ -50,6 +50,9 @@ test_cases:
 - response: 7DA04621F0D11
   expected_values:
     TOYOTA_VSS: 17
+- response: 7DA04621F0D12
+  expected_values:
+    TOYOTA_VSS: 18
 - response: 7DA04621F0D13
   expected_values:
     TOYOTA_VSS: 19
@@ -86,6 +89,9 @@ test_cases:
 - response: 7DA04621F0D1E
   expected_values:
     TOYOTA_VSS: 30
+- response: 7DA04621F0D20
+  expected_values:
+    TOYOTA_VSS: 32
 - response: 7DA04621F0D21
   expected_values:
     TOYOTA_VSS: 33
@@ -98,6 +104,9 @@ test_cases:
 - response: 7DA04621F0D24
   expected_values:
     TOYOTA_VSS: 36
+- response: 7DA04621F0D25
+  expected_values:
+    TOYOTA_VSS: 37
 - response: 7DA04621F0D26
   expected_values:
     TOYOTA_VSS: 38
@@ -113,6 +122,9 @@ test_cases:
 - response: 7DA04621F0D2A
   expected_values:
     TOYOTA_VSS: 42
+- response: 7DA04621F0D2B
+  expected_values:
+    TOYOTA_VSS: 43
 - response: 7DA04621F0D2C
   expected_values:
     TOYOTA_VSS: 44
@@ -176,6 +188,9 @@ test_cases:
 - response: 7DA04621F0D40
   expected_values:
     TOYOTA_VSS: 64
+- response: 7DA04621F0D41
+  expected_values:
+    TOYOTA_VSS: 65
 - response: 7DA04621F0D42
   expected_values:
     TOYOTA_VSS: 66
@@ -197,12 +212,21 @@ test_cases:
 - response: 7DA04621F0D48
   expected_values:
     TOYOTA_VSS: 72
+- response: 7DA04621F0D49
+  expected_values:
+    TOYOTA_VSS: 73
 - response: 7DA04621F0D4B
   expected_values:
     TOYOTA_VSS: 75
+- response: 7DA04621F0D4C
+  expected_values:
+    TOYOTA_VSS: 76
 - response: 7DA04621F0D4D
   expected_values:
     TOYOTA_VSS: 77
+- response: 7DA04621F0D4F
+  expected_values:
+    TOYOTA_VSS: 79
 - response: 7DA04621F0D50
   expected_values:
     TOYOTA_VSS: 80
@@ -212,3 +236,33 @@ test_cases:
 - response: 7DA04621F0D53
   expected_values:
     TOYOTA_VSS: 83
+- response: 7DA04621F0D54
+  expected_values:
+    TOYOTA_VSS: 84
+- response: 7DA04621F0D57
+  expected_values:
+    TOYOTA_VSS: 87
+- response: 7DA04621F0D58
+  expected_values:
+    TOYOTA_VSS: 88
+- response: 7DA04621F0D5B
+  expected_values:
+    TOYOTA_VSS: 91
+- response: 7DA04621F0D5C
+  expected_values:
+    TOYOTA_VSS: 92
+- response: 7DA04621F0D5F
+  expected_values:
+    TOYOTA_VSS: 95
+- response: 7DA04621F0D61
+  expected_values:
+    TOYOTA_VSS: 97
+- response: 7DA04621F0D62
+  expected_values:
+    TOYOTA_VSS: 98
+- response: 7DA04621F0D63
+  expected_values:
+    TOYOTA_VSS: 99
+- response: 7DA04621F0D67
+  expected_values:
+    TOYOTA_VSS: 103

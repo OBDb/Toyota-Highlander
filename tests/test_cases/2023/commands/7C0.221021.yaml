@@ -14,12 +14,21 @@ test_cases:
 - response: 7C80462102184
   expected_values:
     TOYOTA_BATTERY_VOLTAGE: 13.2
+- response: 7C80462102185
+  expected_values:
+    TOYOTA_BATTERY_VOLTAGE: 13.3
+- response: 7C80462102186
+  expected_values:
+    TOYOTA_BATTERY_VOLTAGE: 13.4
 - response: 7C80462102189
   expected_values:
     TOYOTA_BATTERY_VOLTAGE: 13.7
 - response: 7C8046210218A
   expected_values:
     TOYOTA_BATTERY_VOLTAGE: 13.8
+- response: 7C8046210218B
+  expected_values:
+    TOYOTA_BATTERY_VOLTAGE: 13.9
 - response: 7C8046210218C
   expected_values:
     TOYOTA_BATTERY_VOLTAGE: 14
