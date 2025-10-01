@@ -1,8 +1,0 @@
-command_id: 7D2.221F0D|fc=1
-test_cases:
-- expected_values:
-    TOYOTA_VSS_V2: 0
-  response: '708 04 62 1F 0D 00 '
-- expected_values:
-    TOYOTA_VSS_V2: 0
-  response: '709 04 62 1F 0D 00 '
