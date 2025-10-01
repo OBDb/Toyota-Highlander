@@ -1,0 +1,14 @@
+command_id: 700.708.221087
+test_cases:
+- expected_values:
+    TOYOTA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 3.80806
+  response: '708056210870186'
+- expected_values:
+    TOYOTA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.98601
+  response: 708056210870BFF
+- expected_values:
+    TOYOTA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 29.99577
+  response: 708056210870C00
+- expected_values:
+    TOYOTA_INTAKE_VVT_CHANGE_ANGLE_BANK_1: 40.80479
+  response: '708056210871053'
