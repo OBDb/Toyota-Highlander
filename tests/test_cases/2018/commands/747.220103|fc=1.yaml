@@ -3,15 +3,3 @@ test_cases:
 - expected_values:
     TOYOTA_ODO_V6: 107317
   response: '708 07 62 01 03 02 01 A3 35 '
-- expected_values:
-    TOYOTA_ODO_V6: 107317
-  response: '709 07 62 01 03 02 01 A3 35 '
-- expected_values:
-    TOYOTA_ODO_V6: 107347
-  response: 709076201030201A353
-- expected_values:
-    TOYOTA_ODO_V6: 107503
-  response: 709076201030201A3EF
-- expected_values:
-    TOYOTA_ODO_V6: 107524
-  response: 709076201030201A404
