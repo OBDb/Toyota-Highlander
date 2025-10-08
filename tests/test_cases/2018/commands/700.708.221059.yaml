@@ -1,4 +1,4 @@
-command_id: '700.221059'
+command_id: 700.708.221059
 test_cases:
 - expected_values:
     TOYOTA_ACCEL_PEDAL: 0
