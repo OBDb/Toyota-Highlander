@@ -1,5 +1,0 @@
-command_id: 747.220103|fc=1
-test_cases:
-- expected_values:
-    TOYOTA_ODO_V6: 107317
-  response: '708 07 62 01 03 02 01 A3 35 '

@@ -1,0 +1,98 @@
+command_id: 7D2.2210A1
+test_cases:
+- expected_values:
+    TOYOTA_RPM: -484
+    TOYOTA_TQ: -33.875
+  response: |-
+    7DA100C6210A17E1C7E
+    7DA21F303007EF10400
+- expected_values:
+    TOYOTA_RPM: -415
+    TOYOTA_TQ: -42.875
+  response: |-
+    7DA100C6210A17E617E
+    7DA21AF03007EA90400
+- expected_values:
+    TOYOTA_RPM: -321
+    TOYOTA_TQ: -30.75
+  response: |-
+    7DA100C6210A17EBF7F
+    7DA210F03007F0A0400
+- expected_values:
+    TOYOTA_RPM: -276
+    TOYOTA_TQ: -36.125
+  response: |-
+    7DA100C6210A17EEC7E
+    7DA21DE03007EDF0400
+- expected_values:
+    TOYOTA_RPM: -197
+    TOYOTA_TQ: -32
+  response: |-
+    7DA100C6210A17F3B7F
+    7DA210003007F000400
+- expected_values:
+    TOYOTA_RPM: -116
+    TOYOTA_TQ: -103
+  response: |-
+    7DA100C6210A17F8C7C
+    7DA21BF03007CC80400
+- expected_values:
+    TOYOTA_RPM: -71
+    TOYOTA_TQ: -123.125
+  response: |-
+    7DA100C6210A17FB97C
+    7DA214602007C270400
+- expected_values:
+    TOYOTA_RPM: -10
+    TOYOTA_TQ: -0.5
+  response: |-
+    7DA100C6210A17FF67F
+    7DA21EC03007FFC0400
+- expected_values:
+    TOYOTA_RPM: -5
+    TOYOTA_TQ: 0
+  response: |-
+    7DA100C6210A17FFB80
+    7DA2100030080000400
+- expected_values:
+    TOYOTA_RPM: -3
+    TOYOTA_TQ: 0
+  response: |-
+    7DA100C6210A17FFD80
+    7DA2100030080000000
+- expected_values:
+    TOYOTA_RPM: -1
+    TOYOTA_TQ: -43.625
+  response: |-
+    7DA100C6210A17FFF7E
+    7DA219E03007EA30400
+- expected_values:
+    TOYOTA_RPM: 0
+    TOYOTA_TQ: -56
+  response: |-
+    7DA100C6210A180007E
+    7DA214D03007E400400
+- expected_values:
+    TOYOTA_RPM: 455
+    TOYOTA_TQ: 173.375
+  response: |-
+    7DA100C6210A181C785
+    7DA21680300856B0400
+- expected_values:
+    TOYOTA_RPM: 1835
+    TOYOTA_TQ: -14.75
+  response: |-
+    7DA100C6210A1872B7F
+    7DA218204007F8A0400
+- expected_values:
+    TOYOTA_RPM: 4756
+    TOYOTA_TQ: 42.75
+  response: |-
+    7DA100C6210A1929481
+    7DA2163040281560400
+- expected_values:
+    TOYOTA_RPM: 8780
+    TOYOTA_TQ: 5.125
+  response: |-
+    7DA100C6210A1A24C80
+    7DA2133040280290400
