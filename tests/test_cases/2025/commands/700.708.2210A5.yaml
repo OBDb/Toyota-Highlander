@@ -9,7 +9,7 @@ test_cases:
     TOYOTA_MISFIRE_COUNT: 0
   response: |-
     70810086210A5000000
-    7082100BF0000000000
+    70821009F0000000000
 - expected_values:
     TOYOTA_MISFIRE_COUNT: 0
   response: |-
@@ -19,9 +19,14 @@ test_cases:
     TOYOTA_MISFIRE_COUNT: 0
   response: |-
     70810086210A50000FE
-    7082100CE0000000000
+    7082100CA0000000000
 - expected_values:
     TOYOTA_MISFIRE_COUNT: 0
   response: |-
     70810086210A5000100
     7082100E00000000000
+- expected_values:
+    TOYOTA_MISFIRE_COUNT: 2
+  response: |-
+    70810086210A5020000
+    7082100B30000000000
