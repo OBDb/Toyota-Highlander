@@ -1,0 +1,5 @@
+command_id: 7B1.220103
+test_cases:
+- expected_values:
+    TOYOTA_4WD_ODO: 33661749
+  response: '708 07 62 01 03 02 01 A3 35 '
