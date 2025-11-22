@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2121
+test_cases:
+- expected_values:
+    TOYOTA_VSS_7C0: 3
+  response: 7C803612103
+- expected_values:
+    TOYOTA_VSS_7C0: 22
+  response: 7C803612116
+- expected_values:
+    TOYOTA_VSS_7C0: 24
+  response: 7C803612118
+- expected_values:
+    TOYOTA_VSS_7C0: 38
+  response: 7C803612126
+- expected_values:
+    TOYOTA_VSS_7C0: 41
+  response: 7C803612129
