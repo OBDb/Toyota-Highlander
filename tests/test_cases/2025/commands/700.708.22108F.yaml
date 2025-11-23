@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TOYOTA_EXHAUST_VVT_OVER_ADV_LEARN_B1: 89.47262
   response: 7080562108F23CA
+- expected_values:
+    TOYOTA_EXHAUST_VVT_OVER_ADV_LEARN_B1: 90.08786
+  response: 7080562108F2409
