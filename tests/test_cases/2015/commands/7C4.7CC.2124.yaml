@@ -1,17 +1,17 @@
-command_id: 7C4.2124
+command_id: 7C4.7CC.2124
 test_cases:
 - expected_values:
-    TOYOTA_D_SIDE_: 2
+    TOYOTA_SOLAR_D_SIDE: 2
   response: 7CC03612402
 - expected_values:
-    TOYOTA_D_SIDE_: 3
+    TOYOTA_SOLAR_D_SIDE: 3
   response: 7CC03612403
 - expected_values:
-    TOYOTA_D_SIDE_: 6
+    TOYOTA_SOLAR_D_SIDE: 6
   response: 7CC03612406
 - expected_values:
-    TOYOTA_D_SIDE_: 8
+    TOYOTA_SOLAR_D_SIDE: 8
   response: 7CC03612408
 - expected_values:
-    TOYOTA_D_SIDE_: 13
+    TOYOTA_SOLAR_D_SIDE: 13
   response: 7CC0361240D
