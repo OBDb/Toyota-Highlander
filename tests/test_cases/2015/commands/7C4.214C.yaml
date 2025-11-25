@@ -1,14 +1,14 @@
 command_id: 7C4.214C
 test_cases:
 - expected_values:
-    TOYOTA_EVAPORATOR_TARGET_TEMP: 1.6
+    TOYOTA_EVAP_TARGET_T: 1.6
   response: 7CC04614C80A0
 - expected_values:
-    TOYOTA_EVAPORATOR_TARGET_TEMP: 3.3
+    TOYOTA_EVAP_TARGET_T: 3.3
   response: 7CC04614C814A
 - expected_values:
-    TOYOTA_EVAPORATOR_TARGET_TEMP: 4.3
+    TOYOTA_EVAP_TARGET_T: 4.3
   response: 7CC04614C81AE
 - expected_values:
-    TOYOTA_EVAPORATOR_TARGET_TEMP: 4.8
+    TOYOTA_EVAP_TARGET_T: 4.8
   response: 7CC04614C81E0
