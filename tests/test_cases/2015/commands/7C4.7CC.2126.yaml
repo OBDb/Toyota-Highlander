@@ -1,20 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    TOYOTA_ECT: 57.3
-  response: 7CC036126A0
-- expected_values:
-    TOYOTA_ECT: 62.2
-  response: 7CC036126AE
-- expected_values:
-    TOYOTA_ECT: 71.65
-  response: 7CC036126C9
-- expected_values:
-    TOYOTA_ECT: 76.55
-  response: 7CC036126D7
-- expected_values:
-    TOYOTA_ECT: 78.65
-  response: 7CC036126DD
+    TOYOTA_ECT: 41.9
+  response: 7CC03612674
 - expected_values:
     TOYOTA_ECT: 80.75
   response: 7CC036126E3
