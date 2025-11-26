@@ -21,24 +21,18 @@ test_cases:
 - expected_values:
     TOYOTA_FL_ACC: 255
     TOYOTA_FR_ACC: 0
-    TOYOTA_RL_ACC: 255
+    TOYOTA_RL_ACC: 1
     TOYOTA_RR_ACC: 255
-  response: 7B806614200FFFFFF
+  response: 7B806614200FFFF01
+- expected_values:
+    TOYOTA_FL_ACC: 0
+    TOYOTA_FR_ACC: 11
+    TOYOTA_RL_ACC: 0
+    TOYOTA_RR_ACC: 249
+  response: 7B80661420B00F900
 - expected_values:
     TOYOTA_FL_ACC: 0
     TOYOTA_FR_ACC: 255
     TOYOTA_RL_ACC: 1
     TOYOTA_RR_ACC: 1
   response: 7B8066142FF000101
-- expected_values:
-    TOYOTA_FL_ACC: 1
-    TOYOTA_FR_ACC: 255
-    TOYOTA_RL_ACC: 254
-    TOYOTA_RR_ACC: 0
-  response: 7B8066142FF0100FE
-- expected_values:
-    TOYOTA_FL_ACC: 255
-    TOYOTA_FR_ACC: 255
-    TOYOTA_RL_ACC: 0
-    TOYOTA_RR_ACC: 255
-  response: 7B8066142FFFFFF00
