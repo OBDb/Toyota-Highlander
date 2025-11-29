@@ -1,29 +1,11 @@
 command_id: 7C4.214C
 test_cases:
 - expected_values:
-    TOYOTA_EVAP_TARGET_T: 1.6
-  response: 7CC04614C80A0
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 1.7
-  response: 7CC04614C80AA
+    TOYOTA_EVAP_TARGET_T: 1
+  response: 7CC04614C8064
 - expected_values:
     TOYOTA_EVAP_TARGET_T: 3.16
   response: 7CC04614C813C
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 3.2
-  response: 7CC04614C8140
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 3.3
-  response: 7CC04614C814A
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 3.48
-  response: 7CC04614C815C
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 4.1
-  response: 7CC04614C819A
-- expected_values:
-    TOYOTA_EVAP_TARGET_T: 4.3
-  response: 7CC04614C81AE
 - expected_values:
     TOYOTA_EVAP_TARGET_T: 4.8
   response: 7CC04614C81E0
