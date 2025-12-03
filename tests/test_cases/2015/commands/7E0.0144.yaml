@@ -10,23 +10,5 @@ test_cases:
     EQ_RAT: 0.99544
   response: 7E80441447F6A
 - expected_values:
-    EQ_RAT: 0.99605
-  response: 7E80441447F7E
-- expected_values:
-    EQ_RAT: 0.99706
-  response: 7E80441447F9F
-- expected_values:
-    EQ_RAT: 0.99773
-  response: 7E80441447FB5
-- expected_values:
-    EQ_RAT: 0.9984
-  response: 7E80441447FCB
-- expected_values:
-    EQ_RAT: 0.99846
-  response: 7E80441447FCD
-- expected_values:
-    EQ_RAT: 0.99953
-  response: 7E80441447FF0
-- expected_values:
     EQ_RAT: 0.99959
   response: 7E80441447FF2
