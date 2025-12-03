@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TOYOTA_GEAR_V2: 7
   response: '7080462162107'
+- expected_values:
+    TOYOTA_GEAR_V2: 8
+  response: '7080462162108'
