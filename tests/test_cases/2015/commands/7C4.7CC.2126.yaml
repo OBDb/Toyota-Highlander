@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_ECT: 25.1
   response: 7CC03612644
 - expected_values:
-    TOYOTA_ECT: 80.75
-  response: 7CC036126E3
+    TOYOTA_ECT: 86.7
+  response: 7CC036126F4
