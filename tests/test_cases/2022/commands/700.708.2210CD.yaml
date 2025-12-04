@@ -5,13 +5,13 @@ test_cases:
     TOYOTA_LFPS: -3002.6
   response: 708056210CD8AB6
 - expected_values:
+    TOYOTA_LFP: 281.6
+    TOYOTA_LFPS: -2995.2
+  response: 708056210CD8B00
+- expected_values:
     TOYOTA_LFP: 383.9
     TOYOTA_LFPS: -2892.9
   response: 708056210CD8EFF
-- expected_values:
-    TOYOTA_LFP: 384.1
-    TOYOTA_LFPS: -2892.7
-  response: 708056210CD8F01
 - expected_values:
     TOYOTA_LFP: 710.7
     TOYOTA_LFPS: -2566.1
