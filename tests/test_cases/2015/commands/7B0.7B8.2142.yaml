@@ -27,6 +27,6 @@ test_cases:
 - expected_values:
     TOYOTA_FL_ACC: 0
     TOYOTA_FR_ACC: 255
-    TOYOTA_RL_ACC: 254
+    TOYOTA_RL_ACC: 0
     TOYOTA_RR_ACC: 0
-  response: 7B8066142FF0000FE
+  response: 7B8066142FF000000
