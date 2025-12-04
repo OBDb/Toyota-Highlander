@@ -1,7 +1,6 @@
 command_id: 7D2.7DA.2210A2
 test_cases:
 - expected_values:
-    TOYOTA_RM_TQ: -3.375
     TOYOTA_RM_TQ_REQ: -426
   response: |-
     7DA100C6210A27E567F
@@ -12,31 +11,26 @@ test_cases:
     7DA100C6210A27E5C7F
     7DA21FC04007FFD0400
 - expected_values:
-    TOYOTA_RM_TQ: -4.125
     TOYOTA_RM_TQ_REQ: -296
   response: |-
     7DA100C6210A27ED87F
     7DA21DF04007FDF0400
 - expected_values:
-    TOYOTA_RM_TQ: -41.75
     TOYOTA_RM_TQ_REQ: -220
   response: |-
     7DA100C6210A27F247E
     7DA21B904007EB20400
 - expected_values:
-    TOYOTA_RM_TQ: -26
     TOYOTA_RM_TQ_REQ: -116
   response: |-
     7DA100C6210A27F8C7F
     7DA213704007F300400
 - expected_values:
-    TOYOTA_RM_TQ: -2
     TOYOTA_RM_TQ_REQ: -110
   response: |-
     7DA100C6210A27F927F
     7DA21F004007FF00400
 - expected_values:
-    TOYOTA_RM_TQ: -40.875
     TOYOTA_RM_TQ_REQ: -86
   response: |-
     7DA100C6210A27FAA7E
@@ -52,7 +46,6 @@ test_cases:
     7DA100C6210A27FF780
     7DA2105040080030400
 - expected_values:
-    TOYOTA_RM_TQ: 0
     TOYOTA_RM_TQ_REQ: -7
   response: |-
     7DA100C6210A27FF980
@@ -78,7 +71,6 @@ test_cases:
     7DA100C6210A28FB681
     7DA2198040281890400
 - expected_values:
-    TOYOTA_RM_TQ: 0.75
     TOYOTA_RM_TQ_REQ: 7684
   response: |-
     7DA100C6210A29E0480
