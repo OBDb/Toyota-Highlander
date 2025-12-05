@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.2121
+test_cases:
+- expected_values:
+    TOYOTA_CC_VSS: 0
+  response: |-
+    7E81015612100000000
+    7E821800001800009F6
+    7E82200020000000054
+    7E82300000000000000
