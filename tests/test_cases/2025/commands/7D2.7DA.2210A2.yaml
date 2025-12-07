@@ -66,6 +66,7 @@ test_cases:
     7DA100C6210A2859D83
     7DA21B9020083DA0400
 - expected_values:
+    TOYOTA_RM_TQ: 49.125
     TOYOTA_RM_TQ_REQ: 4022
   response: |-
     7DA100C6210A28FB681
