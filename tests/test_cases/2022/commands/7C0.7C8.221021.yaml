@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.221021
 test_cases:
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 13.2
+    TOYOTA_BATTERY_VOLTAGE_V2: 13.2
   response: 7C80462102184
 - expected_values:
-    TOYOTA_BATTERY_VOLTAGE: 14.3
+    TOYOTA_BATTERY_VOLTAGE_V2: 14.3
   response: 7C8046210218F
