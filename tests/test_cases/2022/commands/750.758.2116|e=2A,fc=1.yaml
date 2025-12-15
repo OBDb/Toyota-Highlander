@@ -40,14 +40,14 @@ test_cases:
     7582A2117FF00000000
 - expected_values:
     TOYOTA_TT_1: -10
-    TOYOTA_TT_2: -8
+    TOYOTA_TT_2: -9
     TOYOTA_TT_3: -9
     TOYOTA_TT_4: -9
     TOYOTA_TT_5: 150
     TOYOTA_TT_FL: -10
     TOYOTA_TT_FL_V1: -10
-    TOYOTA_TT_FR: -8
-    TOYOTA_TT_FR_V1: -8
+    TOYOTA_TT_FR: -9
+    TOYOTA_TT_FR_V1: -9
     TOYOTA_TT_RL: -9
     TOYOTA_TT_RL_V1: -9
     TOYOTA_TT_RR: -9
@@ -55,7 +55,7 @@ test_cases:
     TOYOTA_TT_SPARE: 215
     TOYOTA_TT_SPARE_V1: 150
   response: |-
-    7582A100761161E201F
+    7582A100761161E1F1F
     7582A211FFF00000000
 - expected_values:
     TOYOTA_TT_1: -9
