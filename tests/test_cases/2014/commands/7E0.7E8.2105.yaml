@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2105
+test_cases:
+- expected_values:
+    TOYOTA_CATALYST_T_B1S1: 282.6
+    TOYOTA_CATALYST_T_B1S2: 282.6
+  response: |-
+    7E8100C61054D710C9A
+    7E8210C9A067C067C00
