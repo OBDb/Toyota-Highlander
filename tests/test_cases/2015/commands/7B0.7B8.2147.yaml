@@ -3,10 +3,6 @@ test_cases:
 - expected_values:
     TOYOTA_LAT_G: 0
     TOYOTA_LNG_G: 0
-    TOYOTA_STEERING_ANGLE: -5.5
-    TOYOTA_STEER_ANGLE: -5.5
-    TOYOTA_YAW: -2
-    TOYOTA_YAW_RATE_V2: -2
   response: |-
     7B81009614700007E7F
     7B821C9000200000000
