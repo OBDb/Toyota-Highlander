@@ -45,6 +45,16 @@ test_cases:
     7582A1008621004514B
     7582A21504B4E000000
 - expected_values:
+    TOYOTA_TT_1_V2: 42
+    TOYOTA_TT_2_V2: 49
+    TOYOTA_TT_3_V2: 40
+    TOYOTA_TT_FL_V2: 42
+    TOYOTA_TT_FR_V2: 49
+    TOYOTA_TT_RL_V2: 40
+  response: |-
+    7582A10086210045259
+    7582A2150574F000000
+- expected_values:
     TOYOTA_TT_1_V2: 46
     TOYOTA_TT_3_V2: 45
     TOYOTA_TT_FL_V2: 46
@@ -53,13 +63,3 @@ test_cases:
   response: |-
     7582A10086210045600
     7582A21550000000000
-- expected_values:
-    TOYOTA_TT_1_V2: 46
-    TOYOTA_TT_2_V2: 46
-    TOYOTA_TT_3_V2: 45
-    TOYOTA_TT_FL_V2: 46
-    TOYOTA_TT_FR_V2: 46
-    TOYOTA_TT_RL_V2: 45
-  response: |-
-    7582A10086210045656
-    7582A21555750000000
