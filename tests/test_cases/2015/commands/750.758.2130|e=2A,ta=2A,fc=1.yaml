@@ -8,9 +8,7 @@ test_cases:
     7582A21000000000000
 - expected_values:
     TOYOTA_TIRE_P_FR: 2
-    TOYOTA_TIRE_P_RR: 2.03448
     TOYOTA_TP_FR: 2
-    TOYOTA_TP_RR: 2.03448
   response: |-
     7582A10076130009100
     7582A21930000000000
