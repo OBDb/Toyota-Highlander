@@ -17,6 +17,6 @@ test_cases:
     TOYOTA_RM_INVRT_COOL_T: 44
   response: 7DA066210A6545A5F
 - expected_values:
-    TOYOTA_M_INVRT_MAX_T: 54
+    TOYOTA_M_INVRT_MAX_T: 53
     TOYOTA_RM_INVRT_COOL_T: 49
-  response: 7DA066210A659555E
+  response: 7DA066210A659445D
