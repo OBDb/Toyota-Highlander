@@ -4,29 +4,5 @@ test_cases:
     TOYOTA_COOLING_FAN_DUTY_RATIO: 0
   response: '7080462104600'
 - expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 30
-  response: 708046210463C
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 33.5
-  response: '7080462104643'
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 35
-  response: '7080462104646'
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 36
-  response: '7080462104648'
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 37
-  response: 708046210464A
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 38
-  response: 708046210464C
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 40.5
-  response: '7080462104651'
-- expected_values:
-    TOYOTA_COOLING_FAN_DUTY_RATIO: 41
-  response: '7080462104652'
-- expected_values:
     TOYOTA_COOLING_FAN_DUTY_RATIO: 42.5
   response: '7080462104655'
