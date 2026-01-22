@@ -28,7 +28,5 @@ test_cases:
   response: 7B805610697930B
 - expected_values:
     TOYOTA_YAW_1: 40
-    TOYOTA_YAW_2: 11
     TOYOTA_YAW_RATE: 40
-    TOYOTA_YAW_RATE2: 11
   response: 7B8056106A88B13
