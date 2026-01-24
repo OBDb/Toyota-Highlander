@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_Highlander"
+
 generations:
   - name: "First Generation (XU20)"
     start_year: 2001
