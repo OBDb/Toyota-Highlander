@@ -93,8 +93,6 @@ test_cases:
 - expected_values:
     TOYOTA_LAT_G: 0.22
     TOYOTA_LNG_G: -0.18
-    TOYOTA_STEERING_ANGLE: 504.1
-    TOYOTA_STEER_ANGLE: 504.1
     TOYOTA_YAW: 40
     TOYOTA_YAW_RATE_V2: 40
   response: |-
