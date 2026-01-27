@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    TOYOTA_REGULATOR_P: 0.11701
-  response: 7CC03615327
+    TOYOTA_REGULATOR_P: 0.08759
+  response: 7CC03615325
 - expected_values:
     TOYOTA_REGULATOR_P: 0.82309
   response: 7CC03615357
