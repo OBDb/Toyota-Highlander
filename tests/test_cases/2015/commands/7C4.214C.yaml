@@ -11,6 +11,12 @@ test_cases:
     7E803410D11
     7E903410D12
 - expected_values:
+    TOYOTA_EVAP_TARGET_T: 1
+  response: |-
+    7CC04614C8064
+    7DF020110
+    7E804411001F8
+- expected_values:
     TOYOTA_EVAP_TARGET_T: 3
   response: 7CC04614C812C
 - expected_values:
