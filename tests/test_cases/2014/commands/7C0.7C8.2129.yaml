@@ -1,6 +1,14 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
+    TOYOTA_FLI_VOL: 11.09643
+    TOYOTA_FUEL_INPUT: 84
+  response: 7C803612954
+- expected_values:
+    TOYOTA_FLI_VOL: 11.22853
+    TOYOTA_FUEL_INPUT: 85
+  response: 7C803612955
+- expected_values:
     TOYOTA_FLI_VOL: 11.75694
     TOYOTA_FUEL_INPUT: 89
   response: 7C803612959
