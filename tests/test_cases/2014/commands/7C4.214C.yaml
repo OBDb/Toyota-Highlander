@@ -34,6 +34,12 @@ test_cases:
     7E803410D00
     7E903410D00
 - expected_values:
+    TOYOTA_EVAP_TARGET_T: 1
+  response: |-
+    7CC04614C8064
+    7DF020110
+    7E80441100305
+- expected_values:
     TOYOTA_EVAP_TARGET_T: 1.5
   response: |-
     7CC04614C8096
@@ -85,6 +91,16 @@ test_cases:
     7CC04614C8064
     7E8064100BF9FA893
     7E9064100981A8013
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 1
+  response: |-
+    7DF02010C
+    7CC04614C8064
+    7E804410C0EA9
+    7E904410C0EA2
+    7DF02010D
+    7E803410D05
+    7E903410D05
 - expected_values:
     TOYOTA_EVAP_TARGET_T: 1
   response: |-
