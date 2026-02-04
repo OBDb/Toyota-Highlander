@@ -85,12 +85,68 @@ test_cases:
     TOYOTA_EVAP_TARGET_T: 1.8
   response: 7CC04614C80B4
 - expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7CC04614C819C
+    7DF02010C
+    7E804410C1236
+    7E904410C123C
+    7DF02010D
+    7E803410D2C
+    7E903410D2A
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7CC04614C819C
+    7DF02010D
+    7E803410D2A
+    7E903410D2A
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7CC04614C819C
+    7DF020110
+    7E804411001FB
+    7DF02010C
+    7E804410C0AFF
+    7E904410C0B05
+    7DF020144
+    7E80441447FF2
+    7C0022129
+    7C80361291A
+    7DF02010D
+    7E803410D00
+    7E903410D00
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.44
+  response: |-
+    7CC04614C81BC
+    7DF020100
+    7E8064100BF9FA893
+    7E9064100981A8013
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.44
+  response: |-
+    7CC04614C81BC
+    7DF020110
+    7E8044110116B
+    7DF02010C
+    7E804410C1FB6
+    7E904410C1F7E
+- expected_values:
     TOYOTA_EVAP_TARGET_T: 1
   response: |-
     7DF020100
     7CC04614C8064
     7E8064100BF9FA893
     7E9064100981A8013
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7DF020100
+    7E8064100BF9FA893
+    7E9064100981A8013
+    7CC04614C819C
 - expected_values:
     TOYOTA_EVAP_TARGET_T: 1
   response: |-
@@ -122,6 +178,15 @@ test_cases:
     7E903410D45
     7CC04614C8064
 - expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7DF020110
+    7CC04614C819C
+    7E804411001D6
+    7DF02010C
+    7E904410C0AC4
+    7E804410C0AC4
+- expected_values:
     TOYOTA_EVAP_TARGET_T: 1.5
   response: |-
     7DF020110
@@ -131,6 +196,14 @@ test_cases:
     7E8064100BF9FA893
     7CC04614C8096
 - expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7DF020110
+    7E80441100149
+    7CC04614C819C
+    7DF020144
+    7E80441447FF2
+- expected_values:
     TOYOTA_EVAP_TARGET_T: 1
   response: |-
     7DF020110
@@ -139,3 +212,18 @@ test_cases:
     7CC04614C8064
     7E80441423604
     7E90441423617
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7E8064100BF9FA893
+    7E9064100981A8013
+    7CC04614C819C
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 4.12
+  response: |-
+    7E80641010007E500
+    7E906410100040000
+    7DF02010C
+    7E804410C1809
+    7E904410C1812
+    7CC04614C819C
