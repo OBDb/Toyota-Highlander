@@ -10,16 +10,10 @@ test_cases:
     7E8064100BF9FA893
 - expected_values:
     TOYOTA_ODO: 183455
-  response: 7E805612802CC9F
-- expected_values:
-    TOYOTA_ODO: 183455
   response: |-
     7E805612802CC9F
     7E804410C1162
     7E803410D00
-- expected_values:
-    TOYOTA_ODO: 183456
-  response: 7E805612802CCA0
 - expected_values:
     TOYOTA_ODO: 183456
   response: |-
@@ -35,11 +29,52 @@ test_cases:
     7E80441447FF2
     7E804410C1AC8
 - expected_values:
-    TOYOTA_ODO: 183458
-  response: 7E805612802CCA2
-- expected_values:
     TOYOTA_ODO: 183585
   response: 7E805612802CD21
+- expected_values:
+    TOYOTA_ODO: 183693
+  response: |-
+    7E805612802CD8D
+    7E8044144765B
+    7E804410C1818
+    7E803410D52
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E803410D53
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E804410C0B15
+    7E803410D00
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E804410C1591
+    7E803410D31
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E80441100149
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E804411001D3
+    7E804410C1107
+    7E803410D2B
+- expected_values:
+    TOYOTA_ODO: 183694
+  response: |-
+    7E805612802CD8E
+    7E804411001FB
+    7E80441423665
+    7E804410C1411
+    7E803410D33
 - expected_values:
     TOYOTA_ODO: 209584
   response: 7E80561280332B0
