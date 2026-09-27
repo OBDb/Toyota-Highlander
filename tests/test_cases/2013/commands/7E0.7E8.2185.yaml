@@ -1,0 +1,27 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    TOYOTA_GEAR: 1
+    TOYOTA_GEAR_V2: 1
+    TOYOTA_TQC_LOCKUP: 0
+  response: '7E806618501001000'
+- expected_values:
+    TOYOTA_GEAR: 2
+    TOYOTA_GEAR_V2: 2
+    TOYOTA_TQC_LOCKUP: 0
+  response: '7E806618502001000'
+- expected_values:
+    TOYOTA_GEAR: 3
+    TOYOTA_GEAR_V2: 3
+    TOYOTA_TQC_LOCKUP: 0
+  response: '7E806618503001000'
+- expected_values:
+    TOYOTA_GEAR: 4
+    TOYOTA_GEAR_V2: 4
+    TOYOTA_TQC_LOCKUP: 0
+  response: '7E806618504001000'
+- expected_values:
+    TOYOTA_GEAR: 4
+    TOYOTA_GEAR_V2: 4
+    TOYOTA_TQC_LOCKUP: 0
+  response: '7E806618504001010'
