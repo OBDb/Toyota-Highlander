@@ -1,0 +1,23 @@
+command_id: 7C4.7CC.2121
+test_cases:
+- expected_values:
+    TOYOTA_CABIN_T: 26.75
+  response: |-
+    6F02E00001E00400000
+    7CC03612185
+- expected_values:
+    TOYOTA_CABIN_T: 1.25
+  response: 7CC0361211F
+- expected_values:
+    TOYOTA_CABIN_T: 41.75
+  response: 7CC036121C1
+- expected_values:
+    TOYOTA_CABIN_T: 24
+  response: |-
+    7DF020105
+    7CC0361217A
+- expected_values:
+    TOYOTA_CABIN_T: 30.5
+  response: |-
+    7E903410D00
+    7CC03612194
