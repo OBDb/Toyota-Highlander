@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2106
+test_cases:
+- expected_values:
+    TOYOTA_MIL: 0
+    TOYOTA_NUMBER_OF_EMISSION_DTC: 114
+  response: '7E803610672'
+- expected_values:
+    TOYOTA_MIL: 1
+    TOYOTA_NUMBER_OF_EMISSION_DTC: 6
+  response: '7E803610686'
