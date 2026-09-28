@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    TOYOTA_INJ_DUR_CYL_1: 3378
+    TOYOTA_INJ_VOL_CYL_1: 2.047
+    TOYOTA_TOT_FT_1: 0.496
+  response: |-
+    7E81008613C14B50D32
+    7E82181830000000000
