@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     TOYOTA_ATF_T_V_10_7E1: 52.5
   response: 7E90461825C80
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 65
+  response: |-
+    7E90461826900
+    7E903410D40
+    7E90341057C
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 74.375
+  response: |-
+    7E90461827260
+    7E903410D52
+    7E90341057F
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 76.875
+  response: |-
+    7E904618274E0
+    7E903410D38
+    7E90341057E
