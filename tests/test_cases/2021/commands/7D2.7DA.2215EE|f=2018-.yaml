@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.2215EE|f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_12V_V_V2: 12.27722
+  response: 7DA056215EE2770
+- expected_values:
+    HIGHLANDER_12V_V_V2: 14.1641
+  response: 7DA056215EE2DFC
+- expected_values:
+    HIGHLANDER_12V_V_V2: 14.47858
+  response: 7DA056215EE2E00

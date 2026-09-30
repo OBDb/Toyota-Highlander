@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221040|f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_TRANSAXLE_OIL_T: 62
+  response: 7DA066210409CD066
+- expected_values:
+    HIGHLANDER_TRANSAXLE_OIL_T: 45
+  response: 7DA06621040B1F055
+- expected_values:
+    HIGHLANDER_TRANSAXLE_OIL_T: 42
+  response: 7DA06621040B50052
+- expected_values:
+    HIGHLANDER_TRANSAXLE_OIL_T: 24
+  response: 7DA06621040C8D040

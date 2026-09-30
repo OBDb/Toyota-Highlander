@@ -1,5 +1,5 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
-    TOYOTA_ENG_ODO: 33661749
+    HIGHLANDER_ENG_ODO: 107317
   response: '708 07 62 01 03 02 01 A3 35 '
