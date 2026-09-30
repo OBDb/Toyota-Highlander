@@ -472,11 +472,11 @@
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "HIGHLANDER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "HIGHLANDER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "HIGHLANDER_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "HIGHLANDER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "HIGHLANDER_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "unit": "psi" }, "name": "Spare tire pressure"}
+    {"id": "HIGHLANDER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "HIGHLANDER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "HIGHLANDER_TP_3", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "HIGHLANDER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "HIGHLANDER_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
 { "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -709,7 +709,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "HIGHLANDER_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+    {"id": "HIGHLANDER_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2016, 2017, 2018, 2019], "from": 2024 },
   "signals": [
