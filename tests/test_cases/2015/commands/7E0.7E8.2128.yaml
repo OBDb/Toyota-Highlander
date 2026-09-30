@@ -1,16 +1,16 @@
 command_id: 7E0.7E8.2128
 test_cases:
 - expected_values:
-    TOYOTA_ODO: 178913
+    HIGHLANDER_ODO: 178913
   response: 7E805612802BAE1
 - expected_values:
-    TOYOTA_ODO: 245503
+    HIGHLANDER_ODO: 245503
   response: 7E805612803BEFF
 - expected_values:
-    TOYOTA_ODO: 245504
+    HIGHLANDER_ODO: 245504
   response: 7E805612803BF00
 - expected_values:
-    TOYOTA_ODO: 246074
+    HIGHLANDER_ODO: 246074
   response: |-
     7E805612803C13A
     7E803410D00
@@ -25,7 +25,7 @@ test_cases:
     7E80341057B
     7E80441100027
 - expected_values:
-    TOYOTA_ODO: 246174
+    HIGHLANDER_ODO: 246174
   response: |-
     7E805612803C19E
     7E80441100027
@@ -71,7 +71,7 @@ test_cases:
     7E80441100027
     7E804410C0000
 - expected_values:
-    TOYOTA_ODO: 247160
+    HIGHLANDER_ODO: 247160
   response: |-
     7E805612803C578
     7E80441100027
@@ -117,7 +117,7 @@ test_cases:
     7E80441100027
     7E804410C0000
 - expected_values:
-    TOYOTA_ODO: 247662
+    HIGHLANDER_ODO: 247662
   response: |-
     7E805612803C76E
     7E804410C0000
@@ -157,12 +157,12 @@ test_cases:
     7E803410579
     7E80441100027
 - expected_values:
-    TOYOTA_ODO: 248041
+    HIGHLANDER_ODO: 248041
   response: |-
     7E805612803C8E9
     7E804410C0EBB
 - expected_values:
-    TOYOTA_ODO: 248976
+    HIGHLANDER_ODO: 248976
   response: |-
     7E805612803CC90
     7E80441100028
@@ -207,7 +207,7 @@ test_cases:
     7E80341057A
     7E80441100028
 - expected_values:
-    TOYOTA_ODO: 249259
+    HIGHLANDER_ODO: 249259
   response: |-
     7E805612803CDAB
     7E80341057B
@@ -252,47 +252,47 @@ test_cases:
     7E803410D00
     7E80341057B
 - expected_values:
-    TOYOTA_ODO: 249785
+    HIGHLANDER_ODO: 249785
   response: |-
     7E805612803CFB9
     7E80341057B
 - expected_values:
-    TOYOTA_ODO: 249890
+    HIGHLANDER_ODO: 249890
   response: |-
     7E805612803D022
     7E80441100258
 - expected_values:
-    TOYOTA_ODO: 249938
+    HIGHLANDER_ODO: 249938
   response: |-
     7E805612803D052
     7E803410558
 - expected_values:
-    TOYOTA_ODO: 250131
+    HIGHLANDER_ODO: 250131
   response: |-
     7E805612803D113
     7E804411004D2
 - expected_values:
-    TOYOTA_ODO: 250408
+    HIGHLANDER_ODO: 250408
   response: |-
     7E805612803D228
     7E804411001F0
 - expected_values:
-    TOYOTA_ODO: 250459
+    HIGHLANDER_ODO: 250459
   response: |-
     7E805612803D25B
     7E803410D00
 - expected_values:
-    TOYOTA_ODO: 250603
+    HIGHLANDER_ODO: 250603
   response: |-
     7E805612803D2EB
     7E80441100C80
 - expected_values:
-    TOYOTA_ODO: 252526
+    HIGHLANDER_ODO: 252526
   response: |-
     7E805612803DA6E
     7E804411006CF
 - expected_values:
-    TOYOTA_ODO: 253577
+    HIGHLANDER_ODO: 253577
   response: |-
     7E805612803DE89
     7E80341057C
@@ -341,41 +341,38 @@ test_cases:
     7E803410D00
     7E80341057C
 - expected_values:
-    TOYOTA_ODO: 253780
+    HIGHLANDER_ODO: 253780
   response: |-
     7E805612803DF54
     7E803410D40
 - expected_values:
-    TOYOTA_ODO: 257534
+    HIGHLANDER_ODO: 257534
   response: |-
     7E805612803EDFE
     7E80341057E
 - expected_values:
-    TOYOTA_ODO: 258400
+    HIGHLANDER_ODO: 258400
   response: |-
     7E805612803F160
     7E8044110002A
 - expected_values:
-    TOYOTA_ODO: 260874
+    HIGHLANDER_ODO: 260874
   response: |-
     7E805612803FB0A
     7E803410D0D
 - expected_values:
-    TOYOTA_ODO: 262044
+    HIGHLANDER_ODO: 262044
   response: |-
     7E805612803FF9C
     7E8044110024E
 - expected_values:
-    TOYOTA_ODO: 262045
+    HIGHLANDER_ODO: 262045
   response: 7E805612803FF9D
 - expected_values:
-    TOYOTA_ODO: 262277
+    HIGHLANDER_ODO: 262277
   response: '7E8056128040085'
 - expected_values:
-    TOYOTA_ODO: 263379
+    HIGHLANDER_ODO: 263379
   response: |-
     7E80561280404D3
     7E804411006DD
-- expected_values:
-    TOYOTA_ODO: 16777215
-  response: 7E8056128FFFFFF

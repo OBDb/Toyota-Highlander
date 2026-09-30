@@ -1,17 +1,17 @@
 command_id: 701.709.220103
 test_cases:
 - expected_values:
-    TOYOTA_ODO_V5: 113150
+    HIGHLANDER_ODO_V5: 113150
   response: 709076201030101B9FE
 - expected_values:
-    TOYOTA_ODO_V5: 113151
+    HIGHLANDER_ODO_V5: 113151
   response: 709076201030101B9FF
 - expected_values:
-    TOYOTA_ODO_V5: 113152
+    HIGHLANDER_ODO_V5: 113152
   response: 709076201030101BA00
 - expected_values:
-    TOYOTA_ODO_V5: 125952
+    HIGHLANDER_ODO_V5: 125952
   response: 709076201030101EC00
 - expected_values:
-    TOYOTA_ODO_V5: 42224
+    HIGHLANDER_ODO_V5: 42224
   response: 709076201030200A4F0

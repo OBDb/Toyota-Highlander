@@ -1,40 +1,40 @@
 command_id: 7C0.7C8.21A1
 test_cases:
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C803612945
     7C80361A108
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C803612953
     7C80361A108
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: 7C80361A108
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C80361A108
     7C803612952
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C80361A108
     7C803612954
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C80361A108
     7C803612955
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C80361A108
     7C80361296D
 - expected_values:
-    TOYOTA_KEY_REMIND_SOUND: 8
+    HIGHLANDER_KEY_REMIND_SOUND: 8
   response: |-
     7C80361A108
     7C80361298A

@@ -1,0 +1,18 @@
+command_id: 7D2.7DA.221F5B|fc=1,f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_SOC: 33.33333
+  response: 7DA04621F5B55
+- expected_values:
+    HIGHLANDER_SOC: 42.7451
+  response: |-
+    7DA04621F5B6D
+    7D80561621B0000
+- expected_values:
+    HIGHLANDER_SOC: 56.47059
+  response: |-
+    7DA04621F5B90
+    7D805616201544F
+- expected_values:
+    HIGHLANDER_SOC: 76.86275
+  response: 7DA04621F5BC4

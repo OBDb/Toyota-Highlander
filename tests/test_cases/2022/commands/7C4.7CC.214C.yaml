@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.214C
+test_cases:
+- expected_values:
+    HIGHLANDER_EVAP_TARGET_T: 1
+  response: 7CC04614C8064
+- expected_values:
+    HIGHLANDER_EVAP_TARGET_T: 2.55
+  response: 7CC04614C80FF
+- expected_values:
+    HIGHLANDER_EVAP_TARGET_T: 2.56
+  response: 7CC04614C8100
