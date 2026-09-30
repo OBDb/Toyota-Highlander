@@ -4,13 +4,34 @@ test_cases:
     TOYOTA_ATF_T_V_10_7E1: 25
   response: '7E90461824100'
 - expected_values:
-    TOYOTA_ATF_T_V_10_7E1: 52.5
-  response: 7E90461825C80
-- expected_values:
     TOYOTA_ATF_T_V_10_7E1: 65
   response: |-
     7E90461826900
     7E903410D40
+    7E90341057C
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 70
+  response: |-
+    7E90461826E00
+    7E904410C186A
+    7E903410D54
+    7E90341057D
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 71.875
+  response: 7E90461826FE0
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 71.875
+  response: |-
+    7E90461826FE0
+    7E904410C1A03
+    7E903410D54
+    7E90341057B
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 73.125
+  response: |-
+    7E90461827120
+    7E904410C1181
+    7E903410D39
     7E90341057C
 - expected_values:
     TOYOTA_ATF_T_V_10_7E1: 74.375
@@ -19,8 +40,63 @@ test_cases:
     7E903410D52
     7E90341057F
 - expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 75.625
+  response: |-
+    7E904618273A0
+    7E904410C0B57
+    7E903410D03
+    7E90341057D
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 76.25
+  response: |-
+    7E90461827440
+    7E90341057B
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 76.25
+  response: |-
+    7E90461827440
+    7E904410C23DA
+    7E903410D66
+    7E90341057A
+- expected_values:
     TOYOTA_ATF_T_V_10_7E1: 76.875
   response: |-
     7E904618274E0
     7E903410D38
+    7E90341057E
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 77.5
+  response: |-
+    7E90461827580
+    7E903410D00
+    7E90341057E
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 77.5
+  response: |-
+    7E90461827580
+    7E903410D74
+    7E90341057E
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 78.125
+  response: |-
+    7E90461827620
+    7E904410C24A8
+    7E903410D67
+    7E90341057C
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 79.375
+  response: |-
+    7E90461827760
+    7E90341057D
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 79.375
+  response: |-
+    7E90461827760
+    7E90341057E
+- expected_values:
+    TOYOTA_ATF_T_V_10_7E1: 80
+  response: |-
+    7E90461827800
+    7E904410C0A5D
+    7E903410D00
     7E90341057E
