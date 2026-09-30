@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    TOYOTA_REGULATOR_P: 0.21998
+    HIGHLANDER_REGULATOR_P: 219.98
   response: 7CC0361532E
 - expected_values:
-    TOYOTA_REGULATOR_P: 0.92606
+    HIGHLANDER_REGULATOR_P: 926.06
   response: 7CC0361535E
