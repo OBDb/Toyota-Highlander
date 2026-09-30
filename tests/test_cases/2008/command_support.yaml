@@ -40,7 +40,7 @@ supported_commands_by_ecu:
   - 7E0.011C:OBDSUP
   - 7E0.0131:CLR_DIST
   - 7E0.7E8.2121:HIGHLANDER_CC_S
-  - 7E0.7E8.2128:HIGHLANDER_ODO
+  - 7E0.7E8.2128
   "7E2":
   - 7E2.7EA.0149
 unsupported_commands_by_ecu:

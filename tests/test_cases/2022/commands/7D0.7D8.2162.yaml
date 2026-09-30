@@ -8,4 +8,4 @@ test_cases:
   response: 7D8056162098900
 - expected_values:
     HIGHLANDER_PARKING_BRAKE: 'ON'
-  response: 7D80561620B0000
+  response: 7D80561621B0000

@@ -792,6 +792,8 @@
           "9":   { "description": "Off", "value": "OFF" },
           "11":  { "description": "On",  "value": "ON" },
           "16":  { "description": "Off", "value": "OFF" },
+          "25":  { "description": "Off", "value": "OFF" },
+          "27":  { "description": "On",  "value": "ON" },
           "48":  { "description": "On",  "value": "ON" },
           "144": { "description": "Off", "value": "OFF" },
           "176": { "description": "On",  "value": "ON" },
@@ -1110,7 +1112,7 @@
     {"id": "HIGHLANDER_TC_TERMINAL",                             "path": "Control", "fmt": {"bix": 61, "len": 1, "max": 1, "unit": "scalar" }, "name": "TC"},
     {"id": "HIGHLANDER_A_C_COMPRESSOR",                          "path": "Control", "fmt": {"bix": 64, "len": 1, "max": 1, "unit": "offon"  }, "name": "A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2013], "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2013], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
