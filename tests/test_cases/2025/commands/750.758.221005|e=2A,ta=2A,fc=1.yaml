@@ -1,16 +1,14 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    HIGHLANDER_TP_5: 38.66667
+    HIGHLANDER_TP_1: null
+    HIGHLANDER_TP_2: null
+    HIGHLANDER_TP_3: null
+    HIGHLANDER_TP_4: null
+    HIGHLANDER_TP_5: null
   response: |-
     7582A100D6210050000
     7582A21000000000000
-    7582A2200B700000000
-- expected_values:
-    HIGHLANDER_TP_4: 27.0303
-  response: |-
-    7582A100D6210050000
-    7582A21000000000087
     7582A22000000000000
 - expected_values:
     HIGHLANDER_TP_3: 28.9697

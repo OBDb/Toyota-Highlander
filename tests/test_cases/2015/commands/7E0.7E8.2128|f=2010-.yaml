@@ -376,3 +376,6 @@ test_cases:
   response: |-
     7E80561280404D3
     7E804411006DD
+- expected_values:
+    HIGHLANDER_ODO: null
+  response: 7E8056128FFFFFF

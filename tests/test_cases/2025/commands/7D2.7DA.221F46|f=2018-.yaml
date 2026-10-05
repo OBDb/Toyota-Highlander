@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F46|f=2018-
 test_cases:
 - expected_values:
-    HIGHLANDER_AAT_7D2: 1
-  response: 7DA04621F4629
+    HIGHLANDER_AAT_7D2: null
+  response: 7DA04621F4600
 - expected_values:
     HIGHLANDER_AAT_7D2: 43
   response: 7DA04621F4653

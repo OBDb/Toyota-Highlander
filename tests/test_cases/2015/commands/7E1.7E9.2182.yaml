@@ -4,10 +4,28 @@ test_cases:
     HIGHLANDER_ATF_T_V_10_7E1: 25
   response: '7E90461824100'
 - expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 64.375
+  response: |-
+    7E90461826860
+    7E903410D54
+    7E90341057D
+- expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 65
+  response: |-
+    7E90461826900
+    7E90341057C
+- expected_values:
     HIGHLANDER_ATF_T_V_10_7E1: 65
   response: |-
     7E90461826900
     7E903410D40
+    7E90341057C
+- expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 67.5
+  response: |-
+    7E90461826B80
+    7E904410C16F9
+    7E903410D32
     7E90341057C
 - expected_values:
     HIGHLANDER_ATF_T_V_10_7E1: 70

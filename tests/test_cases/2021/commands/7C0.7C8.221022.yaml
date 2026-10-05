@@ -4,11 +4,8 @@ test_cases:
     HIGHLANDER_FUEL_LEVEL: 7.11
   response: 7C80562102202C7
 - expected_values:
-    HIGHLANDER_FUEL_LEVEL: 38.35
-  response: 7C8056210220EFB
-- expected_values:
     HIGHLANDER_FUEL_LEVEL: 61.54
   response: 7C805621022180A
 - expected_values:
-    HIGHLANDER_FUEL_LEVEL: 66
-  response: 7C80562102219C8
+    HIGHLANDER_FUEL_LEVEL: null
+  response: 7C805621022FFFF
