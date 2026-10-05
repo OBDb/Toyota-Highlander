@@ -1,0 +1,16 @@
+command_id: 7B0.7B8.2121|f=-2019
+test_cases:
+- expected_values:
+    HIGHLANDER_VSS: 0
+  response: |-
+    2121
+    7B803612100
+- expected_values:
+    HIGHLANDER_VSS: 0
+  response: '7B8 03 61 21 00 '
+- expected_values:
+    HIGHLANDER_VSS: 0
+  response: 7B803612100
+- expected_values:
+    HIGHLANDER_VSS: 103.95
+  response: 7B80361214D

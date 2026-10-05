@@ -1,0 +1,22 @@
+command_id: 7B0.7B8.2105|f=-2019
+test_cases:
+- expected_values:
+    HIGHLANDER_DECEL: -1.35459
+    HIGHLANDER_DECEL_2: -1.49718
+  response: 7B8056105767516
+- expected_values:
+    HIGHLANDER_DECEL: -1.212
+    HIGHLANDER_DECEL_2: 0.78424
+  response: 7B8056105778500
+- expected_values:
+    HIGHLANDER_DECEL: -0.35647
+    HIGHLANDER_DECEL_2: 2.06753
+  response: 7B80561057D8E00
+- expected_values:
+    HIGHLANDER_DECEL: 1.06941
+    HIGHLANDER_DECEL_2: -1.49718
+  response: 7B8056105877543
+- expected_values:
+    HIGHLANDER_DECEL: 1.63976
+    HIGHLANDER_DECEL_2: -0.49906
+  response: 7B80561058B7C40
