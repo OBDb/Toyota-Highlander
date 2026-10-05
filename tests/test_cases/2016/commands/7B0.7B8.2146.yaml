@@ -1,9 +1,0 @@
-command_id: 7B0.7B8.2146
-test_cases:
-- expected_values:
-    HIGHLANDER_ZP_DEC: 0
-    HIGHLANDER_ZP_DEC2: 0
-    HIGHLANDER_ZP_YAW: 0
-  response: |-
-    7B81009614600008080
-    7B8210E0D0300000000

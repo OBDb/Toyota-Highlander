@@ -1,0 +1,33 @@
+command_id: 7C0.7C8.2129|f=-2019
+test_cases:
+- expected_values:
+    HIGHLANDER_FLI_VOL: 2.24571
+  response: 7C803612911
+- expected_values:
+    HIGHLANDER_FLI_VOL: 2.90621
+  response: |-
+    7C803612916
+    7C803612916
+- expected_values:
+    HIGHLANDER_FLI_VOL: 8.32232
+  response: |-
+    7C80361293F
+    7C80361293F
+- expected_values:
+    HIGHLANDER_FLI_VOL: 8.98283
+  response: |-
+    7C803612944
+    7C803612944
+- expected_values:
+    HIGHLANDER_FLI_VOL: 17.56935
+  response: |-
+    7C803612985
+    7C803612985
+- expected_values:
+    HIGHLANDER_FLI_VOL: 17.96565
+  response: |-
+    7C803612988
+    7C803612988
+- expected_values:
+    HIGHLANDER_FLI_VOL: 18.22985
+  response: 7C80361298A

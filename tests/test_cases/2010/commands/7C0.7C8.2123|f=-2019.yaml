@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2123|f=-2019
+test_cases:
+- expected_values:
+    HIGHLANDER_ECT_7C0: 72
+  response: 7C803612390
+- expected_values:
+    HIGHLANDER_ECT_7C0: 90
+  response: 7C8036123B4

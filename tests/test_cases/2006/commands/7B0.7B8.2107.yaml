@@ -1,8 +1,0 @@
-command_id: 7B0.7B8.2107
-test_cases:
-- expected_values:
-    HIGHLANDER_WHEEL_CYLINDER_PRESSURE: 0.43137
-  response: 7B806610716161617
-- expected_values:
-    HIGHLANDER_WHEEL_CYLINDER_PRESSURE: 0.84314
-  response: 7B80661072B2B2A2D

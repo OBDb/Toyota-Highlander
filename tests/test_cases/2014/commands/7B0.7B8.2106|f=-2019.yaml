@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2106|f=-2019
+test_cases:
+- expected_values:
+    HIGHLANDER_YAW_1: -28
+    HIGHLANDER_YAW_2: -13
+  response: 7B8056106647358
+- expected_values:
+    HIGHLANDER_YAW_1: -10
+    HIGHLANDER_YAW_2: 19
+  response: 7B805610676930B
+- expected_values:
+    HIGHLANDER_YAW_1: 0
+    HIGHLANDER_YAW_2: 0
+  response: 7B8056106808000
+- expected_values:
+    HIGHLANDER_YAW_1: 0
+    HIGHLANDER_YAW_2: 0
+  response: 7B80561068080FF
+- expected_values:
+    HIGHLANDER_YAW_1: 8
+    HIGHLANDER_YAW_2: -20
+  response: 7B8056106886C6E
+- expected_values:
+    HIGHLANDER_YAW_1: 23
+    HIGHLANDER_YAW_2: 8
+  response: 7B805610697888E

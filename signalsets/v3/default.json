@@ -518,46 +518,46 @@
     {"id": "HIGHLANDER_BUCKLE_RS", "path": "Seatbelts", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, right side"},
     {"id": "HIGHLANDER_BUCKLE_LS", "path": "Seatbelts", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Buckle switch, left side"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017], "from": 2020 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "03"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017] },
   "signals": [
     {"id": "HIGHLANDER_TIRE_FR_SPD", "path": "Movement", "fmt": {           "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "HIGHLANDER_TIRE_FL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "HIGHLANDER_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "HIGHLANDER_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2016 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "05"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_DECEL",   "path": "Orientation", "fmt": {          "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration"},
     {"id": "HIGHLANDER_DECEL_2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 18.18, "min": -18.18, "mul": 36.36, "div": 255, "add": -18.18, "unit": "metersPerSecondSquared" }, "name": "Deceleration 2"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "06"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_YAW_1", "path": "Orientation", "fmt": {          "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Yaw rate, sensor 1"},
     {"id": "HIGHLANDER_YAW_2", "path": "Orientation", "fmt": {"bix": 8, "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Yaw rate, sensor 2"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
   "signals": [
     {"id": "HIGHLANDER_WHEEL_CYLINDER_PRESSURE", "path": "Tires", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Wheel cylinder pressure"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1D"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_RESERVOIR_WARNING_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Reservoir warning"},
     {"id": "HIGHLANDER_MAIN_IDLE_SW",         "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Main idle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "1F"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_STOP_LIGHT_SW",    "path": "Lights",  "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light"},
     {"id": "HIGHLANDER_PARKING_BRAKE_SW", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.2, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017], "from": 2020 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "21"}, "freq": 0.2, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017] },
   "signals": [
     {"id": "HIGHLANDER_VSS", "path": "Movement", "fmt": { "len": 8, "max": 323.85, "mul": 1.35, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3C"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2012, "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_STOP_LIGHT_RELAY", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Stop light relay"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "3D"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_ABS_WARN",   "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Anti-lock brake warning light"},
     {"id": "HIGHLANDER_BRAKE_WARN", "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake warning light"},
@@ -565,36 +565,36 @@
     {"id": "HIGHLANDER_BUZZER",     "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Buzzer"},
     {"id": "HIGHLANDER_ECB_WARN",   "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Electronically controlled brake warning light"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2016 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "42"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_FR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {           "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front right wheel acceleration"},
     {"id": "HIGHLANDER_FL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Front left wheel acceleration"},
     {"id": "HIGHLANDER_RR_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear right wheel acceleration"},
     {"id": "HIGHLANDER_RL_WHEEL_ACCELERATION", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 199.27, "min": -200.83, "mul": 1.56906, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Rear left wheel acceleration"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "46"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_ZP_DEC",  "path": "Orientation", "fmt": {           "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration"},
     {"id": "HIGHLANDER_ZP_DEC2", "path": "Orientation", "fmt": {"bix": 8,  "len": 8, "max": 2.54, "min": -2.56, "div": 50,              "sign": true, "unit": "gravity" }, "name": "Zero point of deceleration 2"},
     {"id": "HIGHLANDER_ZP_YAW",  "path": "Orientation", "fmt": {"bix": 16, "len": 8, "max": 127,  "min": -128,             "add": -128,               "unit": "scalar"  }, "name": "Zero point of yaw rate, degrees/sec"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017], "from": 2020 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2011, 2012, 2017] },
   "signals": [
     {"id": "HIGHLANDER_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
     {"id": "HIGHLANDER_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,  "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
     {"id": "HIGHLANDER_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,  "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate value, degrees/sec"},
     {"id": "HIGHLANDER_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle",        "description": "Positive = counter-clockwise, negative = clockwise."}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "48"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "48"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
   "signals": [
     {"id": "HIGHLANDER_FR_REGEN_REQUEST",   "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative request"},
     {"id": "HIGHLANDER_FR_REGEN_OPERATION", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Regenerative operation"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "58"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "58"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
   "signals": [
     {"id": "HIGHLANDER_REGEN_COOPERATION", "path": "Battery", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Regenerative braking cooperation"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5A"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_TRC_TRAC__CTRL",        "path": "Tires",   "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, status"},
     {"id": "HIGHLANDER_TRC_TRAC__ENGINE_CTRL", "path": "Tires",   "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Traction control, engine status"},
@@ -604,7 +604,7 @@
     {"id": "HIGHLANDER_RR_WHEEL_VSC_CTRL",     "path": "Tires",   "fmt": {"bix": 10, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right wheel vehicle stability control status"},
     {"id": "HIGHLANDER_RL_WHEEL_VSC_CTRL",     "path": "Tires",   "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left wheel vehicle stability control status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "5F"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_FR_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {           "len": 1, "max": 1, "unit": "offon" }, "name": "Front right wheel ABS status"},
     {"id": "HIGHLANDER_FL_WHEEL_ABS_CTRL", "path": "Tires", "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "offon" }, "name": "Front left wheel ABS status"},
@@ -615,11 +615,11 @@
     {"id": "HIGHLANDER_BA_CTRL_STATUS",    "path": "Tires", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake assist status"},
     {"id": "HIGHLANDER_PBA_CTRL_STATUS",   "path": "Tires", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "offon" }, "name": "Predictive brake assist status"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 3600, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2014 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A1"}, "freq": 3600, "filter": { "to": 2013 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012] },
   "signals": [
     {"id": "HIGHLANDER_ZERO_POINT_OF_YAW_RATE", "path": "Orientation", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Zero point of yaw rate"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A3"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A3"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009], "from": 2011 },
   "signals": [
     {"id": "HIGHLANDER_SLA_SOLENOID_CURRENT", "path": "Battery", "fmt": {           "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay a, solenoid current"},
     {"id": "HIGHLANDER_SLR_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main relay r solenoid current"},
@@ -628,7 +628,7 @@
     {"id": "HIGHLANDER_SMC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Main connector solenoid current"},
     {"id": "HIGHLANDER_SRC_SOLENOID_CURRENT", "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "milliamps" }, "name": "Relay control solenoid current"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "A6"}, "freq": 60, "filter": { "to": 2019 }, "dbgfilter": { "to": 2012, "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_INSPECTION_MODE", "path": "Details", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
@@ -640,7 +640,7 @@
         }}
     }
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BE"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2005, "years": [2007, 2008, 2009, 2011, 2012], "from": 2017 },
   "signals": [
     {"id": "HIGHLANDER_FR_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {           "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right wheel speed?"},
     {"id": "HIGHLANDER_FL_WHEEL_SPEED_OPEN",    "path": "Movement",    "fmt": {"bix": 1,  "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left wheel speed?"},
@@ -662,30 +662,30 @@
   "signals": [
     {"id": "HIGHLANDER_STEERING_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 410, "min": -410, "mul": 1.5, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "12"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_TAIL_CANCEL_LIGHT",       "path": "Lights", "fmt": {"bix": 2,  "len": 1, "max": 1, "unit": "offon" }, "name": "Tail cancel SW"},
     {"id": "HIGHLANDER_P_SEATBELT_BUCKLE_LIGHT", "path": "Lights", "fmt": {"bix": 8,  "len": 1, "max": 1, "unit": "offon" }, "name": "P-seatbelt buckle SW"},
     {"id": "HIGHLANDER_CHECK_ENGINE_LIGHT",      "path": "Lights", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "offon" }, "name": "Check engine SW"},
     {"id": "HIGHLANDER_EOP_LIGHT",               "path": "Lights", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2016, 2017], "from": 2019 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "21"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "HIGHLANDER_VSS_7C0", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "23"}, "freq": 5, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_ECT_7C0", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 5, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2017], "from": 2020 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "29"}, "freq": 5, "filter": { "to": 2019 }, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2012, 2017] },
   "signals": [
     {"id": "HIGHLANDER_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 21, "mul": 500, "div": 3785, "unit": "gallons" }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 30, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_OIL_CHANGE_ODO", "path": "Fluids", "fmt": { "len": 8, "max": 41038.272, "mul": 2514600, "div": 15625, "unit": "kilometers" }, "name": "Distance since oil change"}
   ]},
@@ -693,11 +693,11 @@
   "signals": [
     {"id": "HIGHLANDER_RHEOSTAT", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Rheostat", "description": "Higher values are brighter"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_KEY_REMIND_SOUND", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Key remind sound"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A7"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A7"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_SEAT_BELT_BEEP_DRIVER",    "path": "Seatbelts", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, driver"},
     {"id": "HIGHLANDER_SEAT_BELT_BEEP_PASSENGER", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Seat belt beep, passenger"},

@@ -1,5 +1,0 @@
-command_id: 7C0.7C8.2129
-test_cases:
-- expected_values:
-    HIGHLANDER_FLI_VOL: 15.32365
-  response: 7C803612974
