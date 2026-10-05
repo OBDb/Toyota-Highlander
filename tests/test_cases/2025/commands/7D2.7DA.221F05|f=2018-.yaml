@@ -4,5 +4,5 @@ test_cases:
     HIGHLANDER_COOL_T: 16
   response: 7DA04621F0538
 - expected_values:
-    HIGHLANDER_COOL_T: 94
-  response: 7DA04621F0586
+    HIGHLANDER_COOL_T: null
+  response: 7DA04621F05FF

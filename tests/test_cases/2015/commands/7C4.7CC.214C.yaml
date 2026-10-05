@@ -397,12 +397,7 @@ test_cases:
 - expected_values:
     HIGHLANDER_EVAP_TARGET_T: 1
   response: |-
-    7E8044110044F
-    7CC04614C8064
-- expected_values:
-    HIGHLANDER_EVAP_TARGET_T: 1
-  response: |-
-    7E80441101519
+    7E80441100211
     7CC04614C8064
 - expected_values:
     HIGHLANDER_EVAP_TARGET_T: 4.76
