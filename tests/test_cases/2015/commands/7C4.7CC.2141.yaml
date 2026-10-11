@@ -1,0 +1,10 @@
+command_id: 7C4.7CC.2141
+test_cases:
+- expected_values:
+    HIGHLANDER_AIR_MIX_SERVO_ACT_D: 5
+    HIGHLANDER_AIR_MIX_SERVO_TARG_D: 5
+  response: 7CC06614105050001
+- expected_values:
+    HIGHLANDER_AIR_MIX_SERVO_ACT_D: 74
+    HIGHLANDER_AIR_MIX_SERVO_TARG_D: 74
+  response: 7CC0661414A4A0001

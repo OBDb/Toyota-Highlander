@@ -743,7 +743,7 @@
   "signals": [
     {"id": "HIGHLANDER_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
     {"id": "HIGHLANDER_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
@@ -1233,7 +1233,7 @@
     {"id": "HIGHLANDER_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
     {"id": "HIGHLANDER_EOT",           "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Engine oil temperature",                "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "52"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "52"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_IDLE_SPARK_ADVN_CTRL_1", "path": "Engine",   "fmt": {           "len": 8,  "max": 15.93,                              "div": 16,               "unit": "degrees" }, "name": "Idle spark advance control 1"},
     {"id": "HIGHLANDER_IDLE_SPARK_ADVN_CTRL_2", "path": "Engine",   "fmt": {"bix": 8,  "len": 8,  "max": 15.93,                              "div": 16,               "unit": "degrees" }, "name": "Idle spark advance control 2"},
@@ -1288,7 +1288,7 @@
   "signals": [
     {"id": "HIGHLANDER_CVT_OIL_P", "path": "Engine", "fmt": { "len": 8, "max": 10200, "mul": 40, "unit": "kilopascal" }, "name": "Continuously variable transmission oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "C1"}, "freq": 3600, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "C1"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_CYLINDER_NUMBER", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Cylinder number"},
     {"id": "HIGHLANDER_DESTINATION",     "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 255,                            "unit": "scalar" }, "name": "Destination"},
@@ -1314,7 +1314,7 @@
   "signals": [
     {"id": "HIGHLANDER_CVT_LEARNED", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Continuously variable transmission learning complete"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E1"}, "freq": 3600, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "E1"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_CODES_INCLUDE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Codes, include history"}
   ]},
