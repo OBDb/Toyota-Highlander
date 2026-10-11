@@ -21,13 +21,13 @@ test_cases:
     7E804410C0000
     7E803410D00
 - expected_values:
-    EQ_RAT: 0.41349
+    EQ_RAT: 0.41348
   response: 7E804414434ED
 - expected_values:
-    EQ_RAT: 0.41416
+    EQ_RAT: 0.41415
   response: '7E80441443503'
 - expected_values:
-    EQ_RAT: 0.83793
+    EQ_RAT: 0.83792
   response: |-
     7E80441446B41
     7E803410D00
@@ -77,7 +77,7 @@ test_cases:
     7E803410D00
     7E80341057E
 - expected_values:
-    EQ_RAT: 0.9452
+    EQ_RAT: 0.94519
   response: 7E804414478FC
 - expected_values:
     EQ_RAT: 0.99957

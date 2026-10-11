@@ -53,6 +53,15 @@ test_cases:
     7582A10076116FF1617
     7582A2115FF00000000
 - expected_values:
+    HIGHLANDER_TT_FL: null
+    HIGHLANDER_TT_FR: null
+    HIGHLANDER_TT_RL: null
+    HIGHLANDER_TT_RR: null
+    HIGHLANDER_TT_SPARE: null
+  response: |-
+    7582A10076116FFFFFF
+    7582A21FFFF00000000
+- expected_values:
     HIGHLANDER_TT_FL: 19
     HIGHLANDER_TT_FR: 20
     HIGHLANDER_TT_RL: 20
