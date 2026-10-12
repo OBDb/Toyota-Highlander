@@ -40,7 +40,7 @@
     {"id": "HIGHLANDER_ECT_IGN",  "path": "Engine", "fmt": {          "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, at ignition"},
     {"id": "HIGHLANDER_ECT_INIT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 119.375, "min": -40, "mul": 62.5, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature, initial"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1043"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1043"}, "freq": 0.25, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_EWP_TARGET_VSS", "path": "Engine", "fmt": {          "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump target speed"},
     {"id": "HIGHLANDER_EWP_RPM",        "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electric water pump RPM"}
@@ -58,7 +58,7 @@
     {"id": "HIGHLANDER_KNOCK_CORRECT_LEARNED_VALUE", "path": "Engine", "fmt": {           "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock correction, learned value"},
     {"id": "HIGHLANDER_KNOCK_FEEDBACK_VALUE",        "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1023, "min": -1024, "mul": 312.5, "div": 10000, "add": -1024, "unit": "scalar" }, "name": "Knock feedback value"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "105E"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "105E"}, "freq": 5, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ECU_INTERNAL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Internal temperature"}
   ]},
@@ -82,7 +82,7 @@
   "signals": [
     {"id": "HIGHLANDER_EXHAUST_VVT_TARGET_ANGLE_B1", "path": "Engine", "fmt": { "len": 16, "max": 639.9, "mul": 639.9, "div": 65535, "unit": "degrees" }, "name": "Exhaust VVT target angle B1"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1074"}, "freq": 1, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_EOP", "path": "Engine", "fmt": { "len": 16, "max": 5119.92, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -90,7 +90,7 @@
   "signals": [
     {"id": "HIGHLANDER_IWP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Intercooler water pump speed, raw count"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_IDLE_SAC_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 1"},
     {"id": "HIGHLANDER_IDLE_SAC_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 2"},
@@ -149,7 +149,7 @@
   "signals": [
     {"id": "HIGHLANDER_MISFIRE_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, all cylinders"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "10A7"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "10A7"}, "freq": 1, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_MISFIRE_CYL1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 1"},
     {"id": "HIGHLANDER_MISFIRE_CYL2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count, cylinder 2"},
@@ -346,7 +346,7 @@
   "signals": [
     {"id": "HIGHLANDER_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F5C"}, "freq": 5, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variation 2", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -389,7 +389,7 @@
   "signals": [
     {"id": "HIGHLANDER_COOLANT_VALVE_2_CLOSE", "path": "Engine", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "noyes" }, "name": "Coolant water route switching valve 2, closed?"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "2848"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "2848"}, "freq": 1, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_EOP_CONTROL_VALVE", "path": "Engine", "fmt": { "len": 16, "max": 4999.9207, "mul": 0.0762939, "unit": "milliamps" }, "name": "Engine oil pressure control valve"}
   ]},
@@ -466,7 +466,7 @@
     {"id": "HIGHLANDER_TP_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "HIGHLANDER_TP_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 15, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front right tire temperature"},
     {"id": "HIGHLANDER_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
@@ -474,7 +474,7 @@
     {"id": "HIGHLANDER_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "HIGHLANDER_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "HIGHLANDER_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
@@ -482,7 +482,7 @@
     {"id": "HIGHLANDER_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "HIGHLANDER_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "filter": { "to": 2013, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_TID_1", "path": "Tires", "name": "Tire 1 position", "fmt": {"len": 8, "map": {
           "1": { "description": "Front left",  "value": "FL" },
@@ -654,7 +654,7 @@
     {"id": "HIGHLANDER_ACCUMULATOR_OPEN",       "path": "Engine",      "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Accumulator open"},
     {"id": "HIGHLANDER_HV_COMM_OPEN",           "path": "Engine",      "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hydraulic valve, communication open"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "filter": { "to": 2007, "from": 2020 }, "dbgfilter": { "years": [2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_MASTER_CYL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
@@ -689,7 +689,7 @@
   "signals": [
     {"id": "HIGHLANDER_OIL_CHANGE_ODO", "path": "Fluids", "fmt": { "len": 8, "max": 41038.272, "mul": 2514600, "div": 15625, "unit": "kilometers" }, "name": "Distance since oil change"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "68"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2014 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "68"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2009, "years": [2011, 2012] },
   "signals": [
     {"id": "HIGHLANDER_RHEOSTAT", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Rheostat", "description": "Higher values are brighter"}
   ]},
@@ -707,11 +707,11 @@
   "signals": [
     {"id": "HIGHLANDER_REVERSE_BEEP", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "onoff" }, "name": "Reverse beep"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "filter": { "to": 2007, "from": 2020 }, "dbgfilter": { "years": [2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "filter": { "to": 2007, "from": 2020 }, "dbgfilter": { "years": [2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -731,7 +731,7 @@
   "signals": [
     {"id": "HIGHLANDER_ECT", "path": "Engine", "fmt": { "len": 8, "max": 90.55, "min": 1.3, "mul": 89.25, "div": 255, "add": 1.3, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2014 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 5, "filter": { "to": 2013 }, "dbgfilter": { "to": 2009, "years": [2011, 2012] },
   "signals": [
     {"id": "HIGHLANDER_T_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Set temperature, driver side"}
   ]},
