@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.221021|f=2020-;-2007
+test_cases:
+- expected_values:
+    HIGHLANDER_BATTERY_VOLTAGE_7C0: 12.2
+  response: 7C8046210217A
+- expected_values:
+    HIGHLANDER_BATTERY_VOLTAGE_7C0: 14.7
+  response: 7C80462102193

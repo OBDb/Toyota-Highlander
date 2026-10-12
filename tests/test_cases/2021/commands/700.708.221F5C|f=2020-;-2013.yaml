@@ -1,0 +1,8 @@
+command_id: 700.708.221F5C|f=2020-;-2013
+test_cases:
+- expected_values:
+    HIGHLANDER_EOT_V2: 28
+  response: 70804621F5C44
+- expected_values:
+    HIGHLANDER_EOT_V2: 90
+  response: 70804621F5C82
