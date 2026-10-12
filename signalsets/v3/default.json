@@ -122,8 +122,8 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
-    {"id": "HIGHLANDER_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": -0.0531, "min": -200, "mul": 399.9, "div": 65535, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
-    {"id": "HIGHLANDER_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                             "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
+    {"id": "HIGHLANDER_VVT_IE_DUTY_RATIO_1",              "path": "ECU", "fmt": {           "len": 15, "max": 199.98, "min": -200, "mul": 25, "div": 2048, "add": -200, "unit": "percent" }, "name": "VVT-ie duty ratio bank 1"},
+    {"id": "HIGHLANDER_VVT_IE_MOTOR_DIRECTION_FORWARD_1", "path": "ECU", "fmt": {"bix": 15, "len": 1,  "max": 1,                                                        "unit": "offon"   }, "name": "VVT-ie motor direction: forward bank 1"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "108D"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2027 },
   "signals": [
@@ -375,7 +375,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "2829"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "HIGHLANDER_ELECTRIC_THERMOSTAT_DUTY_RATIO", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Electric thermostat duty ratio"}
+    {"id": "HIGHLANDER_ELECTRIC_THERMOSTAT_DUTY_RATIO", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Electric thermostat duty ratio"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "282C"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
@@ -709,7 +709,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "filter": { "to": 2007, "from": 2020 }, "dbgfilter": { "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "HIGHLANDER_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "HIGHLANDER_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "nullmin": 0, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "filter": { "to": 2007, "from": 2020 }, "dbgfilter": { "years": [2024], "from": 2026 },
   "signals": [
@@ -1245,11 +1245,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "54"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
-    {"id": "HIGHLANDER_RPM_CYL_1",      "path": "Movement", "fmt": {           "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 1"},
-    {"id": "HIGHLANDER_RPM_CYL_2",      "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 2"},
-    {"id": "HIGHLANDER_RPM_CYL_3",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 3"},
-    {"id": "HIGHLANDER_RPM_CYL_4",      "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Engine speed of cylinder 4"},
-    {"id": "HIGHLANDER_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "unit": "rpm" }, "name": "Average engine speed of all cylinders", "suggestedMetric": "engineSpeed"}
+    {"id": "HIGHLANDER_RPM_CYL_1",      "path": "Movement", "fmt": {           "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 1"},
+    {"id": "HIGHLANDER_RPM_CYL_2",      "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 2"},
+    {"id": "HIGHLANDER_RPM_CYL_3",      "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 3"},
+    {"id": "HIGHLANDER_RPM_CYL_4",      "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Engine speed of cylinder 4"},
+    {"id": "HIGHLANDER_AV_RPM_ALL_CYL", "path": "Movement", "fmt": {"bix": 64, "len": 16, "max": 51199, "mul": 25, "div": 32, "nullmax": 51199, "unit": "rpm" }, "name": "Average engine speed of all cylinders", "suggestedMetric": "engineSpeed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "81"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
