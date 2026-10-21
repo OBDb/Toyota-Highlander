@@ -1,0 +1,23 @@
+command_id: 700.708.221F3F
+test_cases:
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 148.28
+  response: 70805621F3F0416
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 469.76
+  response: 70805621F3F0B10
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 588.56
+  response: 70805621F3F0DA4
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 665.96
+  response: 70805621F3F0F52
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 709.16
+  response: 70805621F3F1042
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 749.84
+  response: 70805621F3F1124
+- expected_values:
+    HIGHLANDER_CAT_T_BANK_2_SENS_2: 818.42
+  response: 70805621F3F12A1

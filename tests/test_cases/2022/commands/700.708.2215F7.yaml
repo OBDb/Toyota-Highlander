@@ -1,0 +1,20 @@
+command_id: 700.708.2215F7
+test_cases:
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 4.2723
+  response: 708056215F7846D
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 5.00444
+  response: 708056215F7852D
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 5.10739
+  response: 708056215F78548
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 6.22848
+  response: 708056215F7866E
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 6.63268
+  response: 708056215F786D8
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 7.22755
+  response: 708056215F78774
