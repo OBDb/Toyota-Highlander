@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     HIGHLANDER_SLEEP_TIME_BATSENS: 2
   response: 708046215F002
+- expected_values:
+    HIGHLANDER_SLEEP_TIME_BATSENS: 15
+  response: 708046215F00F
