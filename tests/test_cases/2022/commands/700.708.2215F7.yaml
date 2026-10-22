@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     HIGHLANDER_BAT_CURRENT_700: 7.22755
   response: 708056215F78774
+- expected_values:
+    HIGHLANDER_BAT_CURRENT_700: 9.05027
+  response: 708056215F78952

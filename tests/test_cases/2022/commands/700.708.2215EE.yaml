@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     HIGHLANDER_V_BATSENS: 14.1942
   response: 708056215EE2D6C
+- expected_values:
+    HIGHLANDER_V_BATSENS: 14.22105
+  response: 708056215EE2D82
