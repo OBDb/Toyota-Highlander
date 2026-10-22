@@ -1,0 +1,8 @@
+command_id: 700.708.221F2F
+test_cases:
+- expected_values:
+    HIGHLANDER_FLI: 19.21569
+  response: 70804621F2F31
+- expected_values:
+    HIGHLANDER_FLI: 76.07843
+  response: 70804621F2FC2

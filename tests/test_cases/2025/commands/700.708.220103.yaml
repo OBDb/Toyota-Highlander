@@ -1,0 +1,8 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    HIGHLANDER_ENG_ODO: 17927
+  response: '7080762010302004607'
+- expected_values:
+    HIGHLANDER_ENG_ODO: 17928
+  response: '7080762010302004608'

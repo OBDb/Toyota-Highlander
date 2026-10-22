@@ -1,0 +1,11 @@
+command_id: 700.708.222820
+test_cases:
+- expected_values:
+    HIGHLANDER_INTERCOOLER_WATER: 41.29702
+  response: 708056228201A6E
+- expected_values:
+    HIGHLANDER_INTERCOOLER_WATER: 41.74868
+  response: 708056228201AB8
+- expected_values:
+    HIGHLANDER_INTERCOOLER_WATER: 42.47501
+  response: 708056228201B2F
