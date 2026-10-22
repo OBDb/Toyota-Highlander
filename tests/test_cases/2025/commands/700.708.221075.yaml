@@ -1,0 +1,23 @@
+command_id: 700.708.221075
+test_cases:
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36421
+  response: '708056210758E45'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36436
+  response: '708056210758E54'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36451
+  response: '708056210758E63'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36467
+  response: '708056210758E73'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36468
+  response: '708056210758E74'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36482
+  response: '708056210758E82'
+- expected_values:
+    HIGHLANDER_IWP_SPEED: 36498
+  response: '708056210758E92'

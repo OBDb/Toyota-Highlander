@@ -3,7 +3,7 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -49,7 +49,7 @@
   "signals": [
     {"id": "HIGHLANDER_COOLING_FAN_DUTY_RATIO", "path": "Engine", "fmt": { "len": 8, "max": 127.5, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "Cooling fan duty ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1059"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -28.873, "unit": "percent" }, "name": "Accelerator pedal"}
   ]},
@@ -86,7 +86,7 @@
   "signals": [
     {"id": "HIGHLANDER_EOP", "path": "Engine", "fmt": { "len": 16, "max": 5119.92, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1075"}, "freq": 1,
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1075"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_IWP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Intercooler water pump speed, raw count"}
   ]},
@@ -97,11 +97,11 @@
     {"id": "HIGHLANDER_IDLE_SAC_CYL_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 3"},
     {"id": "HIGHLANDER_IDLE_SAC_CYL_4", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 15.9375, "mul": 6.25, "div": 100, "unit": "degrees" }, "name": "Idle spark advance control, cylinder 4"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_EOT_700", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1084"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ROUGH_IDLE_CYL_1", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 1"},
     {"id": "HIGHLANDER_ROUGH_IDLE_CYL_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "degrees" }, "name": "Rough idle, cylinder 2"},
@@ -258,7 +258,7 @@
     {"id": "HIGHLANDER_1ST_TRUBOCHARGER_P", "path": "Battery", "fmt": {           "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "1st turbocharger outlet pressure, control valve"},
     {"id": "HIGHLANDER_2ND_TRUBOCHARGER_P", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 300, "div": 100, "unit": "kilopascal" }, "name": "2nd turbocharger outlet pressure, control valve"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15E5"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15E5"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_BAT_STAT_FULL_CHG", "path": "Battery", "fmt": { "len": 8, "max": 32512.5, "mul": 255, "div": 2, "unit": "ampereHours" }, "name": "Battery status of full charge"}
   ]},
@@ -266,7 +266,7 @@
   "signals": [
     {"id": "HIGHLANDER_DARK_CURRENT_BAT", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Dark current of battery"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15E8"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15E8"}, "freq": 3600, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_CHG_INTEGRATED",           "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5,              "div": 10,              "unit": "ampereHours" }, "name": "Charging integrated current of aux. battery"},
     {"id": "HIGHLANDER_DISCHARGING",              "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5,              "div": 10,              "unit": "ampereHours" }, "name": "Discharging integrated current of aux. battery"},
@@ -274,7 +274,7 @@
     {"id": "HIGHLANDER_AUX_BAT_CAP_AFTER_IG_OFF", "path": "Battery", "fmt": {"bix": 72, "len": 8,  "max": 127,         "min": -128,            "add": -128, "unit": "ampereHours" }, "name": "Aux. battery capacity after IG OFF"},
     {"id": "HIGHLANDER_INTEGRATED_ENG_RUN",       "path": "Engine",  "fmt": {"bix": 80, "len": 16, "max": 65535,                                            "unit": "hours"       }, "name": "Integrated engine run time"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15EE"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15EE"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_V_BATSENS", "path": "Battery", "fmt": { "len": 16, "max": 79.9979, "mul": 13333, "div": 10922500, "unit": "volts" }, "name": "Voltage of battery sensor"}
   ]},
@@ -282,27 +282,27 @@
   "signals": [
     {"id": "HIGHLANDER_SLEEP_TIME_BATSENS", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "hours" }, "name": "Sleep time of battery sensor"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15F6"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15F6"}, "freq": 3600, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_INITIAL_ENG_BAT_V_LO", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Initial engine battery voltage lower limit"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15F7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15F7"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_BAT_CURRENT_700", "path": "Battery", "fmt": { "len": 16, "max": 124.9, "min": -125, "mul": 49, "div": 12850, "add": -125, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15F8"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15F8"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_BAT_T_700", "path": "Battery", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "15FA"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15FA"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ALT_DUTY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 399, "div": 164, "unit": "percent" }, "name": "Alternator output duty cycle"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_AT_LOCK_UP_STATE", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_GEAR_700", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -310,7 +310,7 @@
   "signals": [
     {"id": "HIGHLANDER_TRANS_SHIFT_ST_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -322,7 +322,7 @@
   "signals": [
     {"id": "HIGHLANDER_ATF_TEMP_700", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F2F"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -356,7 +356,7 @@
     {"id": "HIGHLANDER_HFP_ACTUAL",        "path": "Fuel", "fmt": {"bix": 24, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "High fuel pressure, actual"},
     {"id": "HIGHLANDER_LOW_FUEL_PRESSURE", "path": "Fuel", "fmt": {"bix": 64, "len": 16, "max": 655350, "mul": 10, "unit": "kilopascal" }, "name": "Low fuel pressure"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1F77"}, "freq": 5,
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1F77"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_IAT_B1S1", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 1"},
     {"id": "HIGHLANDER_IAT_B1S2", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 2"}
@@ -365,7 +365,7 @@
   "signals": [
     {"id": "HIGHLANDER_BAT_T_700_2", "path": "Battery", "fmt": { "len": 16, "max": 11756.3, "min": -40, "mul": 9, "div": 50, "add": -40, "unit": "fahrenheit" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "2820"}, "freq": 1,
+{ "hdr": "700", "rax": "708", "cmd": {"22": "2820"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_INTERCOOLER_WATER", "path": "Engine", "fmt": { "len": 16, "max": 300, "mul": 80, "div": 13107, "unit": "percent" }, "name": "Intercooler water pump"}
   ]},
@@ -398,7 +398,7 @@
     {"id": "HIGHLANDER_ENG_FUEL_RATE", "path": "Fuel", "fmt": {           "len": 16, "max": 1310.7, "div": 50, "unit": "gramsPerSecond" }, "name": "Engine fuel rate"},
     {"id": "HIGHLANDER_VEH_FUEL_RATE", "path": "Fuel", "fmt": {"bix": 16, "len": 16, "max": 1310.7, "div": 50, "unit": "gramsPerSecond" }, "name": "Vehicle fuel rate"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ODO_V5", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -418,7 +418,7 @@
   "signals": [
     {"id": "HIGHLANDER_NT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 10000, "unit": "rpm" }, "name": "NT speed"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_LOCK_UP_STATE", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
@@ -426,7 +426,7 @@
   "signals": [
     {"id": "HIGHLANDER_TRANS_SHIFT_ST_RAT_701", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid pan temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -434,7 +434,7 @@
   "signals": [
     {"id": "HIGHLANDER_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid post-converter temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ATF_THERMAL_DEGRAD_EST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic transmission fluid thermal degradation estimate"}
   ]},

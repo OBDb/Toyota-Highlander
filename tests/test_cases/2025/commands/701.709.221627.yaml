@@ -1,0 +1,23 @@
+command_id: 701.709.221627
+test_cases:
+- expected_values:
+    HIGHLANDER_TF1_PAN: 68
+  response: 709056216273C00
+- expected_values:
+    HIGHLANDER_TF1_PAN: 75.875
+  response: '709056216274060'
+- expected_values:
+    HIGHLANDER_TF1_PAN: 78.125
+  response: 7090562162741A0
+- expected_values:
+    HIGHLANDER_TF1_PAN: 82.625
+  response: '709056216274420'
+- expected_values:
+    HIGHLANDER_TF1_PAN: 84.875
+  response: '709056216274560'
+- expected_values:
+    HIGHLANDER_TF1_PAN: 87.125
+  response: 7090562162746A0
+- expected_values:
+    HIGHLANDER_TF1_PAN: 89.375
+  response: '7090562162747E0'

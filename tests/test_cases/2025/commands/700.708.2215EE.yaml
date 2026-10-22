@@ -1,0 +1,11 @@
+command_id: 700.708.2215EE
+test_cases:
+- expected_values:
+    HIGHLANDER_V_BATSENS: 13.46422
+  response: 708056215EE2B16
+- expected_values:
+    HIGHLANDER_V_BATSENS: 13.71325
+  response: 708056215EE2BE2
+- expected_values:
+    HIGHLANDER_V_BATSENS: 14.25035
+  response: 708056215EE2D9A
