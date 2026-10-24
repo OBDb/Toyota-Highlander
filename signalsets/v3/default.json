@@ -1138,7 +1138,15 @@
     {"id": "HIGHLANDER_ACC_RELAY_ON",          "path": "Engine",       "fmt": {"bix": 46, "len": 1, "max": 1, "unit": "scalar" }, "name": "Accessory relay on"},
     {"id": "HIGHLANDER_STARTER_RELAY_ON",      "path": "Engine",       "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "scalar" }, "name": "Starter relay on"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3A"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3A"}, "freq": 1, "filter": { "to": 2013 }, "dbgfilter": { "to": 2012 },
+  "signals": [
+    {"id": "HIGHLANDER_VALVEMATIC_TGT_ANG_XU40", "path": "Engine", "fmt": {           "len": 16, "max": 639.9, "mul": 5,  "div": 512,   "unit": "degrees" }, "name": "Valvematic, target angle, 2013 and earlier"},
+    {"id": "HIGHLANDER_PURGE_CUT_VSV_DUTY_XU40", "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 399.9, "mul": 25, "div": 4096,  "unit": "percent" }, "name": "Purge cut vacuum switching valve duty, 2013 and earlier"},
+    {"id": "HIGHLANDER_F_HEATER_DUTY_B1S1_XU40", "path": "Engine", "fmt": {"bix": 40, "len": 16, "max": 399.9, "mul": 25, "div": 4096,  "unit": "percent" }, "name": "A/F heater duty bank 1 sensor 1, 2013 and earlier"},
+    {"id": "HIGHLANDER_O2_HEATER_CURR_VAL_XU40", "path": "Engine", "fmt": {"bix": 56, "len": 16, "max": 4.999,            "div": 13107, "unit": "amps"    }, "name": "O2 heater current val bank 1 sensor 2, 2013 and earlier"},
+    {"id": "HIGHLANDER_O2_HEATER_B1S2_XU40",     "path": "Engine", "fmt": {"bix": 76, "len": 1,  "max": 1,                              "unit": "scalar"  }, "name": "O2 heater b1s2_active, 2013 and earlier"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "3A"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "from": 2016 },
   "signals": [
     {"id": "HIGHLANDER_VALVEMATIC_TGT_ANG", "path": "Engine", "fmt": {           "len": 16, "max": 639.9, "mul": 5,  "div": 512,   "unit": "degrees" }, "name": "Valvematic, target angle"},
     {"id": "HIGHLANDER_PURGE_CUT_VSV_DUTY", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399.9, "mul": 25, "div": 4096,  "unit": "percent" }, "name": "Purge cut vacuum switching valve duty"},

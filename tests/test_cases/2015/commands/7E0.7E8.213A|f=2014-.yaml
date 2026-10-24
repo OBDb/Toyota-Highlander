@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.213A
+command_id: 7E0.7E8.213A|f=2014-
 test_cases:
 - expected_values:
     HIGHLANDER_F_HEATER_DUTY_B1S1: 0
