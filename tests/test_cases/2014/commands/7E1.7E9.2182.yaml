@@ -1,8 +1,17 @@
 command_id: 7E1.7E9.2182
 test_cases:
 - expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 26.875
+  response: 7E904618242E0
+- expected_values:
     HIGHLANDER_ATF_T_V_10_7E1: 34.375
   response: 7E90461824A60
+- expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 35.625
+  response: 7E90461824BA0
+- expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 36.25
+  response: 7E90461824C40
 - expected_values:
     HIGHLANDER_ATF_T_V_10_7E1: 38.125
   response: 7E90461824E20
