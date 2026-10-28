@@ -1,5 +1,29 @@
 command_id: 7C4.7CC.214A
 test_cases:
 - expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 1824
+  response: 7CC04614A0720
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 1944
+  response: 7CC04614A0798
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 1945
+  response: 7CC04614A0799
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 1959
+  response: 7CC04614A07A7
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 2018
+  response: 7CC04614A07E2
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 2047
+  response: 7CC04614A07FF
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 2712
+  response: 7CC04614A0A98
+- expected_values:
     HIGHLANDER_COMP_TGT_SPD: 2992
   response: 7CC04614A0BB0
+- expected_values:
+    HIGHLANDER_COMP_TGT_SPD: 3051
+  response: 7CC04614A0BEB
