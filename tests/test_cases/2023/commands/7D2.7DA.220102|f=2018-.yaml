@@ -1,0 +1,22 @@
+command_id: 7D2.7DA.220102|f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_KEY_CYCLE: 5082
+  response: |-
+    7DA100A62010213DA00
+    7DA2105AFAE01000000
+- expected_values:
+    HIGHLANDER_KEY_CYCLE: 5082
+  response: |-
+    7DA100A62010213DA00
+    7DA210661EB01000000
+- expected_values:
+    HIGHLANDER_KEY_CYCLE: 5082
+  response: |-
+    7DA100A62010213DA00
+    7DA210742D001000000
+- expected_values:
+    HIGHLANDER_KEY_CYCLE: 5082
+  response: |-
+    7DA100A62010213DA00
+    7DA2107EA1C01000000

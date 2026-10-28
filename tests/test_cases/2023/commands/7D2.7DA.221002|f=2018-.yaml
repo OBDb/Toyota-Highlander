@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221002|f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_AUX_BAT_V: 12.8344
+  response: 7DA056210022918
+- expected_values:
+    HIGHLANDER_AUX_BAT_V: 12.85392
+  response: 7DA056210022928
+- expected_values:
+    HIGHLANDER_AUX_BAT_V: 12.8588
+  response: 7DA05621002292C
+- expected_values:
+    HIGHLANDER_AUX_BAT_V: 14.48384
+  response: 7DA056210022E60
