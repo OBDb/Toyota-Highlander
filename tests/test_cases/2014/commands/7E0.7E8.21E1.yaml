@@ -10,3 +10,8 @@ test_cases:
   response: |-
     7E8100A61E100025979
     7E821000001C0000000
+- expected_values:
+    HIGHLANDER_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10002597A
+    7E821000001C0000000
