@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221039|f=2018-
+test_cases:
+- expected_values:
+    HIGHLANDER_FRONT_REAR_MOTOR_TQ: -28.751
+  response: 7DA0762103925C30FB1
+- expected_values:
+    HIGHLANDER_FRONT_REAR_MOTOR_TQ: -28.731
+  response: 7DA0762103925C30FC5
+- expected_values:
+    HIGHLANDER_FRONT_REAR_MOTOR_TQ: -28.73
+  response: 7DA0762103925C30FC6
+- expected_values:
+    HIGHLANDER_FRONT_REAR_MOTOR_TQ: -28.57
+  response: 7DA07621039270A1066

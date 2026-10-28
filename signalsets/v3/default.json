@@ -3,7 +3,7 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2024], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -743,7 +743,7 @@
   "signals": [
     {"id": "HIGHLANDER_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2016, 2017, 2018, 2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
     {"id": "HIGHLANDER_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
@@ -758,11 +758,11 @@
     {"id": "HIGHLANDER_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "HIGHLANDER_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "49"}, "freq": 0.25,
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "49"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "dbg": true, "cmd": {"21": "4A"}, "freq": 0.25,
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
   ]},
@@ -790,7 +790,7 @@
   "signals": [
     {"id": "HIGHLANDER_PARKING_BRAKE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "0102"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
   ]},
@@ -798,11 +798,11 @@
   "signals": [
     {"id": "HIGHLANDER_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Aux battery voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1039"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
   ]},
@@ -810,12 +810,12 @@
   "signals": [
     {"id": "HIGHLANDER_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1069"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
     {"id": "HIGHLANDER_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106A"}, "freq": 0.25, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106A"}, "freq": 0.25, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_REAR_MOTOR",              "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque, requested"},
     {"id": "HIGHLANDER_REAR_MOTOR_REGENERATIVE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Rear motor regenerative brake torque"}
@@ -825,7 +825,7 @@
     {"id": "HIGHLANDER_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
     {"id": "HIGHLANDER_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
@@ -836,7 +836,7 @@
     {"id": "HIGHLANDER_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "HIGHLANDER_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "107E"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
@@ -854,7 +854,7 @@
   "signals": [
     {"id": "HIGHLANDER_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A5"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
     {"id": "HIGHLANDER_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
@@ -865,18 +865,18 @@
     {"id": "HIGHLANDER_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
     {"id": "HIGHLANDER_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A7"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
     {"id": "HIGHLANDER_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A8"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_GEN_INVERTER_T_7D2",      "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"},
     {"id": "HIGHLANDER_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
     {"id": "HIGHLANDER_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B0"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vl-voltage before boosting"},
     {"id": "HIGHLANDER_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Vh-voltage after boosting"}
@@ -921,12 +921,12 @@
   "signals": [
     {"id": "HIGHLANDER_HVBAT_CHRG_V", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "volts" }, "name": "HV battery charge voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_AUXILIARY_BAT",    "path": "Battery", "fmt": {           "len": 8, "max": -12451, "min": -12500, "mul": 2525, "div": 13107, "add": -12500, "unit": "amps"    }, "name": "Auxiliary battery current"},
     {"id": "HIGHLANDER_HYBRID_BAT_1_FAN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 127,                                "div": 2,                    "unit": "percent" }, "name": "Hybrid battery 1 fan"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1814"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_HYBRID_BAT_T_1", "path": "Battery", "fmt": {           "len": 16, "max": 400, "min": -58, "mul": 458, "div": 65535, "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 1"},
     {"id": "HIGHLANDER_HYBRID_BAT_T_2", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 401, "min": -58, "mul": 9,   "div": 5,     "add": -58, "unit": "fahrenheit" }, "name": "Hybrid battery temperature 2"},
@@ -948,7 +948,7 @@
   "signals": [
     {"id": "HIGHLANDER_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2018 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F42"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "HIGHLANDER_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
   ]},
