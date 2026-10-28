@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2182
+test_cases:
+- expected_values:
+    HIGHLANDER_ATF_T_V_10_7E1: 46.25
+  response: '7E90461825640'
