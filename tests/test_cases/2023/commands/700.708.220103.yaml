@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     HIGHLANDER_ENG_ODO: 27721
   response: 7080762010302006C49
+- expected_values:
+    HIGHLANDER_ENG_ODO: 27747
+  response: 7080762010302006C63
