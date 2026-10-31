@@ -103,8 +103,10 @@ supported_commands_by_ecu:
   - 7D2.7DA.221F9A|f=2018-:HIGHLANDER_HVBAT_C,HIGHLANDER_HVBAT_V
   "7DF":
   - 7DF.0104
+  - 7DF.0105
   - 7DF.0106
   - 7DF.010C
+  - 7DF.0110
   - 7DF.011C
   - 7DF.0131
   - 7DF.0134
