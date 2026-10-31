@@ -151,6 +151,7 @@ supported_commands_by_ecu:
   - 0146:AAT
   - 0147:TP_B
   - 014C:TAC_PCT
+  - 7E0.0104:LOAD_PCT
   "7E2":
   - 7E2.7EA.0104
   "7E5":
@@ -338,7 +339,6 @@ unsupported_commands_by_ecu:
   - 7D2.7DA.221829|f=2018-:HIGHLANDER_HVBAT_MAX_T
   - 7D2.7DA.22182A|f=2018-:HIGHLANDER_HVBAT_MIN_T
   "7E0":
-  - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
   - 7E0.010C:RPM
