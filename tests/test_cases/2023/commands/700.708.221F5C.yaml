@@ -1,4 +1,4 @@
-command_id: 700.708.221F5C|f=2020-;-2013
+command_id: 700.708.221F5C
 test_cases:
 - expected_values:
     HIGHLANDER_EOT_V2: 16
