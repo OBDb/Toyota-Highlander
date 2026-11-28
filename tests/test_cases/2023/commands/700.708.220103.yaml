@@ -1,6 +1,10 @@
 command_id: 700.708.220103
 test_cases:
 - expected_values:
+    HIGHLANDER_ENG_ODO_RAW: 88573
+    HIGHLANDER_ENG_ODO_UNIT: KM
+  response: 70807620103010159FD
+- expected_values:
     HIGHLANDER_ENG_ODO_RAW: 27717
     HIGHLANDER_ENG_ODO_UNIT: MI
   response: 7080762010302006C45
